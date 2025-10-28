@@ -1,0 +1,58 @@
+/* Variable definitions */
+:root {
+  --spacingS: 4px;
+  --spacingM: 6px;
+  --spacingL: 8px;
+  --spacingXL: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text01: #e1e1e1;
+
+    --highlight01: #7a437a;
+    --highlight02: #895788;
+    --highlight03: #976b96;
+
+    --background01: #121212;
+    --background02: #282828;
+    --background03: #3f3f3f;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text01: #121212;
+
+    --highlight01: #7a437a;
+    --highlight02: #895788;
+    --highlight03: #976b96;
+
+    --background01: #e1e1e1;
+    --background02: #d3d3d3;
+    --background03: #c5c5c5;
+  }
+}
+
+/* Common elements */
+html,
+body,
+#root {
+  overflow: auto;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  color: var(--text01);
+  background: var(--background02);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

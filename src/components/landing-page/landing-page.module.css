@@ -1,0 +1,7 @@
+.wrapper {
+  margin: var(--spacingXL);
+  padding: var(--spacingL);
+  background-color: var(--highlight03);
+
+  flex-grow: 1;
+}
