@@ -1,10 +1,9 @@
 import { FC } from 'react';
 import ReactDOM from 'react-dom/client';
 
-
 import './global.css';
 import NavigationBar from './components/nav-bar/nav-bar';
-import LandingPage from './components/landing-page/landing-page';
+import MapPanel from './components/map-panel/map-panel';
 
 /**
  * Standard template for all pages, adds in constant navigational elements.
@@ -12,10 +11,10 @@ import LandingPage from './components/landing-page/landing-page';
  */
 const StandardPage: FC = () => {
     return (
-        <>
+        <div className='top-level-container'>
             <NavigationBar/>
-            <LandingPage />
-        </>
+            <MapPanel />
+        </div>
     )
 }
 
