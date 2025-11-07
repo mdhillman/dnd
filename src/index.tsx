@@ -1,26 +1,30 @@
 import { FC } from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import LandingPage from './components/landing-page/landing-page';
 
 import './global.css';
-import NavigationBar from './components/nav-bar/nav-bar';
-import MapPanel from './components/map-panel/map-panel';
+import TestPage from './components/test-page/test-page';
+
 
 /**
- * Standard template for all pages, adds in constant navigational elements.
+ * 
  * @returns 
  */
-const StandardPage: FC = () => {
-    return (
-        <div className='top-level-container'>
-            <NavigationBar/>
-            <MapPanel />
-        </div>
-    )
-}
+const CustomRoutes: FC = () => (
+    <Routes>
+        <Route path='/' element={<LandingPage/>}/>
+        <Route path='/test' element={<TestPage/>}/>
+    </Routes>
+);
 
 const container = document.querySelector('#root');
 
 if(container != null) {
     const root = ReactDOM.createRoot(container);
-    root.render(<StandardPage />);
+    root.render(
+        <BrowserRouter>
+            <CustomRoutes/>
+        </BrowserRouter>
+    );
 }

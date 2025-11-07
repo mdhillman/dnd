@@ -5,4 +5,11 @@
     border-width: 0 0 2px 0;
     border-style: solid;
     border-color: var(--highlight01);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navItem {
+    border: 1px solid red;
 }
