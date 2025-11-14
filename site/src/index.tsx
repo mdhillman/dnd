@@ -2,9 +2,9 @@ import { FC } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import LandingPage from './components/landing-page/landing-page';
+import MapPanel from './components/map-panel/map-panel';
 
 import './global.css';
-import TestPage from './components/test-page/test-page';
 
 
 /**
@@ -14,7 +14,7 @@ import TestPage from './components/test-page/test-page';
 const CustomRoutes: FC = () => (
     <Routes>
         <Route path='/' element={<LandingPage/>}/>
-        <Route path='/test' element={<TestPage/>}/>
+        <Route path='/map' element={<MapPanel/>}/>
     </Routes>
 );
 

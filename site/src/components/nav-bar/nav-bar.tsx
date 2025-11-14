@@ -9,9 +9,9 @@ const NavigationBar: FC = () => {
 
     return (
         <div className={styles.container}>
-            <IconButton aria-label="mercator-projection" onClick={() => changeProjection('mercator')}>
+            {/* <IconButton aria-label="mercator-projection" onClick={() => changeProjection('mercator')}>
                     <MapIcon className={styles.projectionIcon}/>
-            </IconButton>
+            </IconButton> */}
         </div>
     );
 

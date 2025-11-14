@@ -27,7 +27,7 @@ function MapPanel() {
         
         mapRef.current = new mapboxgl.Map({
             container: mapContainerRef.current ?? '',
-            style: 'mapbox://styles/mhillman/cmhgqw9cr009801pj1guw3asj/draft',
+            style: 'mapbox://styles/mhillman/cmhqra10x002b01s6460l115u/draft',
         });
 
         mapRef.current.on('zoomend', () => {
@@ -38,7 +38,7 @@ function MapPanel() {
             console.info("Map has loaded.");
             
             mapRef.current?.addSource(Sources.TERRAIN.name, Sources.TERRAIN.settings);
-            mapRef.current?.setTerrain({ source: Sources.TERRAIN.name, exaggeration: 0.33 });
+            mapRef.current?.setTerrain({ source: Sources.TERRAIN.name, exaggeration: 0.25 });
         })
 
         return () => {

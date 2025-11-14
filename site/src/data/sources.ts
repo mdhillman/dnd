@@ -6,13 +6,13 @@ export interface SourceDefinition {
 };
 
 
-    export const TERRAIN: SourceDefinition = {
-        name: 'terrain',
-        settings: {
-            type: 'raster-dem',
-            url: 'mapbox://mhillman.8sbeaa57',
-            tileSize: 512,
-            maxzoom: 2,
-            encoding: 'mapbox',
-        }
-    };
+export const TERRAIN: SourceDefinition = {
+    name: 'terrain',
+    settings: {
+        type: 'raster-dem',
+        url: 'mapbox://mhillman.b9nr98m8',
+        tileSize: 512,
+        maxzoom: 2,
+        encoding: 'mapbox',
+    }
+};
