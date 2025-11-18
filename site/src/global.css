@@ -10,13 +10,17 @@
     :root {
         --text01: #e1e1e1;
 
-        --highlight01: #7a437a;
+        --highlight01: darksalmon;
         --highlight02: #895788;
         --highlight03: #976b96;
 
-        --background01: #121212;
-        --background02: #282828;
-        --background03: #3f3f3f;
+        --dark-primary: #121212;
+        --dark-secondary: color-mix(in hsl, var(----dark-primary) 92%, white 8%);
+        --dark-tertiary: color-mix(in hsl, var(----dark-primary) 86%, white 14%);
+
+        --background01: color-mix(in hsl, var(--dark-primary) 92%, var(--highlight01) 8%);
+        --background02: color-mix(in hsl, var(--dark-primary) 86%, var(--highlight01) 14%);
+        --background03: color-mix(in hsl, var(--dark-primary) 80%, var(--highlight01) 20%);
     }
 }
 

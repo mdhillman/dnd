@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacingL);
+    background-color: var(--background02);
+
+    width: 200px;
+    /*border-width: 0 2px 0 0;
+    border-style: solid;
+    border-image: linear-gradient(0deg, var(--highlight01), var(--highlight03)) 1;*/
+    
+}
+
+.linkItem {
+    border-radius: 0.5em;
+    padding: var(--spacingL);
+    margin-top: var(--spacingS);
+
+    background-color: var(--background03);
+}
