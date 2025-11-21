@@ -1,39 +1,25 @@
-import { FC, PropsWithChildren } from "react";
-import SidePanel, { SidePanelLink } from "../side-panel/side-panel";
+import { FC, ReactNode } from "react";
+import SidePanel from "../side-panel/side-panel";
 import NavigationBar from "../nav-bar/nav-bar";
 
 import styles from './page-wrapper.module.css';
+import { MAIN_LINKS } from "../../data/links";
 
+export interface PageWrapperProps {
+    children?: ReactNode;
+}
 /**
  * 
  * @returns 
  */
-const PageWrapper: FC = ({children}: PropsWithChildren) => {
-
-    const sidePanelLinks: SidePanelLink[] = [
-        {
-            name: "Alpha",
-            link: "google.com/1",
-            tooltip: "Alpha tooltip"
-        },
-          {
-            name: "Beta",
-            link: "google.com/2",
-            tooltip: "Beta tooltip"
-        },
-          {
-            name: "Charlie",
-            link: "google.com/3",
-            tooltip: "Charlie tooltip"
-        },
-    ];
+const PageWrapper: FC<PageWrapperProps> = ({children}) => {
 
     return (
         <div className={styles.outer}>
             <NavigationBar/>
 
             <div className={styles.inner}>
-                <SidePanel links={sidePanelLinks}/>
+                <SidePanel links={MAIN_LINKS}/>
                 {children}
             </div>           
         </div>

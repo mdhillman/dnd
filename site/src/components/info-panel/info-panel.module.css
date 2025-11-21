@@ -1,0 +1,10 @@
+.container {
+    flex-grow: 1;
+
+    color: var(--text);
+    padding: 0 var(--spacingXXL);
+    margin: var(--spacingXL);
+
+    border-radius: 1rem;
+    background-color: var(--background02);
+}

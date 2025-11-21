@@ -1,43 +1,80 @@
-import { FC } from "react";
+import { FC, ReactNode, useState } from "react";
 import styles from './side-panel.module.css';
-import { Tooltip } from "@mui/material";
-
+import { Icon, Tooltip } from "@mui/material";
+import { SidePanelLink } from "../../data/links";
+import { useNavigate } from "react-router-dom";
+import { ArrowDropDown } from "@mui/icons-material";
 
 export interface SidePanelProps {
     links: SidePanelLink[],
-}
-
-export interface SidePanelLink {
-    name: string,
-    link: string,
-    tooltip: string,
-}
-
-const SidePanelItem: FC<SidePanelLink> = ({name, link, tooltip}: SidePanelLink) => {
-    return (
-        <Tooltip title={tooltip} placement={"right"} arrow>
-            <div className={styles.linkItem}>
-                <span>{name}</span>
-            </div>
-        </Tooltip>
-    )
 }
 
 /**
  * 
  * @returns 
  */
-const SidePanel: FC<SidePanelProps> = ({links}: SidePanelProps) => {
+const SidePanel: FC<SidePanelProps> = ({ links }: SidePanelProps) => {
+    const organisedLinks = useBuildLinks(links);
 
     return (
         <div className={styles.container}>
-            {links.map(link => 
-                <SidePanelItem name={link.name} link={link.link} tooltip={link.tooltip}/>
-            )}
+            {organisedLinks.map(link => link)}
         </div>
     );
 }
 
+
+const useBuildLinks = (links: SidePanelLink[]): ReactNode[] => {
+    const [collapsedNodes, setCollapsedNodes] = useState<string[]>([]);
+    const results: ReactNode[] = [];
+    const navigate = useNavigate();
+
+    const routeChange = (path: string) => {
+        navigate(path);
+    }
+
+    const collapseOrExpand = (name: string) => {
+        if (collapsedNodes.includes(name)) {
+            setCollapsedNodes(prev => prev.filter(n => n != name));
+        } else {
+            setCollapsedNodes(prev => [...prev, name]);
+        }
+    }
+
+    const recurse = (link: SidePanelLink, depth: number) => {
+        const inlineStyle = {
+            marginLeft: `calc(${depth} * var(--spacingXL))`,
+        };
+
+        const iconName = link.icon ?? "star";
+        const collapserIcon = collapsedNodes.includes(link.name) ? "arrow_drop_down" : "arrow_drop_up";
+
+        results.push(
+            <Tooltip title={link.tooltip} placement={"right"} key={link.name} arrow>
+                <div style={inlineStyle} className={styles.linkItem} onClick={() => routeChange(link.link)}>
+                    <Icon className={styles.linkIcon}>{iconName}</Icon>
+                    <span>{link.name}</span>
+
+                    {link.sublinks && (
+                        <Icon
+                            className={styles.linkCollapser}
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                collapseOrExpand(link.name);
+                            }}>{collapserIcon}</Icon>
+                    )}
+                </div>
+            </Tooltip>
+        );
+
+        if (!collapsedNodes.includes(link.name)) {
+            link.sublinks?.forEach(sublink => recurse(sublink, depth + 1));
+        }
+    }
+
+    links.forEach(link => recurse(link, 0));
+    return results;
+}
 
 
 export default SidePanel;

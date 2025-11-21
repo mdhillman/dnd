@@ -4,17 +4,39 @@
     padding: var(--spacingL);
     background-color: var(--background02);
 
-    width: 200px;
-    /*border-width: 0 2px 0 0;
+    width: 12.5rem;
+    border-width: 0 1px 0 0;
     border-style: solid;
-    border-image: linear-gradient(0deg, var(--highlight01), var(--highlight03)) 1;*/
+    border-image: linear-gradient(180deg, var(--highlight01), var(--highlight03)) 1;
     
 }
 
 .linkItem {
-    border-radius: 0.5em;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
     padding: var(--spacingL);
     margin-top: var(--spacingS);
-
+    color: var(--text);
     background-color: var(--background03);
+    cursor: pointer;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.linkItem:hover {
+    color: var(--textHover);
+    background-color: var(--background01);
+}
+
+.linkIcon {
+    font-size: 1.25rem !important;
+    padding-right: var(--spacingM);
+}
+
+.linkCollapser {
+    margin-left: auto;
+    z-index: 1;
 }
