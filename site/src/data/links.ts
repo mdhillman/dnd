@@ -132,6 +132,12 @@ export const MAIN_LINKS: SidePanelLink[] = [
                 link: "/?info=session-recaps",
                 tooltip: "Recaps on each session",
                 icon: "replay"
+            },
+            {
+                name: "Cookies & privacy",
+                link: "/?info=privacy",
+                tooltip: "Details on cookies & privacy policy",
+                icon: "cookie"
             }
         ]
     }

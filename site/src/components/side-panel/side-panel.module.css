@@ -1,14 +1,17 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding: var(--spacingL);
+    padding: var(--spacingL) var(--spacingL) var(--spacingL) var(--spacingXL);
     background-color: var(--background02);
 
     width: 12.5rem;
-    border-width: 0 1px 0 0;
+    min-width: 12.5rem;
+    border-width: 0 2px 0 0;
     border-style: solid;
     border-image: linear-gradient(180deg, var(--highlight01), var(--highlight03)) 1;
     
+    overflow-y: auto;
+    scrollbar-gutter: stable;
 }
 
 .linkItem {

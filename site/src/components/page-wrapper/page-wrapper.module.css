@@ -1,12 +1,8 @@
-.outer {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.inner {
+.container {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     background-color: var(--background03);
+
+    overflow: hidden;
 }

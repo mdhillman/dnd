@@ -5,6 +5,7 @@
     --spacingL: 8px;
     --spacingXL: 12px;
     --spacingXXL: 20px;
+    --textHover: color-mix(in hsl, var(--text) 50%, var(--highlight01) 50%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +15,7 @@
         --highlight03: darkmagenta;
 
         --text: #e1e1e1;
-       
+
         --dark-primary: #121212;
         --dark-secondary: color-mix(in hsl, var(--dark-primary) 92%, white 8%);
         --dark-tertiary: color-mix(in hsl, var(--dark-primary) 86%, white 14%);
@@ -40,13 +41,16 @@
 }
 
 /* Common elements */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #cc7000 transparent;
+}
+
 html,
 body,
 #root {
     overflow: auto;
     height: 100%;
-
-    --textHover: color-mix(in hsl, var(--text) 50%, var(--highlight01) 50%);
 }
 
 body {

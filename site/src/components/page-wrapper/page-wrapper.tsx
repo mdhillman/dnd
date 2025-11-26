@@ -15,14 +15,10 @@ export interface PageWrapperProps {
 const PageWrapper: FC<PageWrapperProps> = ({children}) => {
 
     return (
-        <div className={styles.outer}>
-            <NavigationBar/>
-
-            <div className={styles.inner}>
-                <SidePanel links={MAIN_LINKS}/>
-                {children}
-            </div>           
-        </div>
+        <div className={styles.container}>
+            <SidePanel links={MAIN_LINKS}/>
+            {children}
+        </div>           
     );
 
 }

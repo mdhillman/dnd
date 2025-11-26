@@ -3,7 +3,6 @@ import styles from './side-panel.module.css';
 import { Icon, Tooltip } from "@mui/material";
 import { SidePanelLink } from "../../data/links";
 import { useNavigate } from "react-router-dom";
-import { ArrowDropDown } from "@mui/icons-material";
 
 export interface SidePanelProps {
     links: SidePanelLink[],
