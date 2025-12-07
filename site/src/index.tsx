@@ -10,6 +10,7 @@ import './global.css';
 
 // Check if the Buffer global is defined, if not, attach the polyfill
 import { Buffer } from 'buffer';
+import { HomePage } from './components/home-page/home-page';
 if (typeof window !== 'undefined' && typeof window.Buffer === 'undefined') {
   window.Buffer = Buffer;
 }
@@ -19,7 +20,6 @@ const MainPage: FC = () => {
     let [params] = useSearchParams();
     const infoParam = params.get("info");
 
-    console.log("INFO IS " + infoParam);
     if(infoParam) {
         return (
             <PageWrapper>
@@ -40,6 +40,7 @@ const MainPage: FC = () => {
 const CustomRoutes: FC = () => (
     <Routes>
         <Route path='/' element={<MainPage/>}/>
+        <Route path='/landing' element={<HomePage/>}/>
         <Route path='/map' element={<MapPanel/>}/>
     </Routes>
 );

@@ -1,6 +1,6 @@
 ---
 title: Nations of Theia
-image: great-council-chambers.jpg
+header: great-council-chambers.jpg
 ---
 
 # Nations of Theia

@@ -23,6 +23,7 @@
         --background01: color-mix(in hsl, var(--dark-primary) 92%, var(--highlight01) 8%);
         --background02: color-mix(in hsl, var(--dark-primary) 86%, var(--highlight01) 14%);
         --background03: color-mix(in hsl, var(--dark-primary) 80%, var(--highlight01) 20%);
+        --background04: color-mix(in hsl, var(--dark-primary) 60%, var(--highlight01) 40%);
     }
 }
 
@@ -37,6 +38,7 @@
         --background01: #e1e1e1;
         --background02: #d3d3d3;
         --background03: #c5c5c5;
+        --background04: #c5c5c5;
     }
 }
 
@@ -53,10 +55,17 @@ body,
     height: 100%;
 }
 
+a {
+    color: var(--highlight02);
+}
+a:hover {
+    color: var(--highlight01);
+}
+
 body {
     margin: 0;
     line-height: 1.5;
-    font-family: sans-serif;
+    font-family: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     -webkit-font-smoothing: antialiased;
 
     color: var(--text01);

@@ -1,8 +1,13 @@
-import { FC, useEffect, useState, useMemo } from "react";
+import { FC, useEffect, useState, useMemo, useContext } from "react";
 import matter, { GrayMatterFile } from 'gray-matter';
 import styles from './info-panel.module.css';
 import ReactMarkdown from "react-markdown";
-import { Tooltip } from "@mui/material";
+import { Button, getNativeSelectUtilityClasses, Tooltip } from "@mui/material";
+import remarkGfm from "remark-gfm";
+import remarkToc from "remark-toc";
+import { InfoTable, InfoTableProps } from "./info-table";
+import { removeCookie } from "../../utilties";
+import { CookieContext } from "../../contexts";
 
 export interface InfoPanelProps {
     filename: string;
@@ -27,18 +32,25 @@ const LoadingPanel: FC = () => {
     )
 };
 
-interface MarkdownTags {
-    [key: string]: string
+
+
+interface GrayMatterData {
+    title: string,
+    header: string,
+    table: InfoTableProps
 } 
 
+
 const InfoPanel: FC<InfoPanelProps> = ({filename}) => {
-    const [mdTags, setMdTags] = useState<MarkdownTags | null>(null);
+    const [mdTags, setMdTags] = useState<GrayMatterData | null>(null);
     const [mdContent, setMdContent] = useState<string | null>(null);
 
     const [error, setError] = useState<boolean>(false);
     const [loading, setLoading] = useState<boolean>(true);
 
-    const headerImage = mdTags?.image ? `/images/${mdTags.image}` : null;
+    const headerImage = mdTags?.header ? `/images/${mdTags.header}` : null;
+
+    const cookies = useContext(CookieContext).sort();
 
     useEffect(() => {
         setLoading(true);
@@ -46,9 +58,13 @@ const InfoPanel: FC<InfoPanelProps> = ({filename}) => {
         const loadMarkdown = async () => {
             const response = await fetch(`/info/${filename}.md`);
             if(response.ok) {
-                const {data, content} = matter(await response.text())
+                let {data, content} = matter(await response.text())
 
-                setMdTags(data);
+                if(content.includes("COOKIECONTENT")) {
+                    content = content.replaceAll("COOKIECONTENT", "[" + cookies.join(", ") + "]");
+                }
+
+                setMdTags(data as GrayMatterData);
                 setMdContent(content);
 
                 document.title = data.title ?? 'The World of Theia';
@@ -60,7 +76,7 @@ const InfoPanel: FC<InfoPanelProps> = ({filename}) => {
         }
         
         loadMarkdown();
-    }, [filename]);
+    }, [filename, cookies]);
 
     
 
@@ -93,7 +109,18 @@ const InfoPanel: FC<InfoPanelProps> = ({filename}) => {
             )}
             
             <div className={styles.content}>
-                <ReactMarkdown>{mdContent}</ReactMarkdown>
+                <InfoTable {...mdTags.table}/>
+                <ReactMarkdown remarkPlugins={[[remarkGfm, { singleTilde: false }], [remarkToc]]}>{mdContent}</ReactMarkdown>
+
+                {filename === 'privacy' && (
+                    <div className={styles.buttonContainer}>
+                        <Tooltip title="Click to remove all stored Cookies">
+                            <Button variant="contained" onClick={removeCookie}>
+                                Remove all Cookies
+                            </Button>
+                        </Tooltip>
+                    </div>
+                )}
             </div>
         </div>
     );

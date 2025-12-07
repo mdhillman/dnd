@@ -8,6 +8,7 @@
     "@emotion/styled": "^11.14.1",
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@fontsource/roboto": "^5.2.8",
+    "@gsap/react": "^2.1.2",
     "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4",
     "@types/react-router-dom": "^5.3.3",
@@ -15,6 +16,7 @@
     "core-js": "^3.47.0",
     "gray-matter": "^4.0.3",
     "grey-matter": "^0.0.0",
+    "gsap": "^3.13.0",
     "mapbox-gl": "^3.16.0",
     "prettier": "^3.5.3",
     "react": "^18.3.1",
@@ -22,7 +24,10 @@
     "react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^7.9.5",
-    "react-spring": "^9.7.5"
+    "react-spring": "^9.7.5",
+    "remark-gfm": "^4.0.1",
+    "remark-toc": "^9.0.0",
+    "three": "^0.181.2"
   },
   "scripts": {
     "build": "react-scripts build",
@@ -34,6 +39,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.181.0",
     "eslint": "^8.57.1",
     "gh-pages": "^6.3.0",
     "react-scripts": "^5.0.1",

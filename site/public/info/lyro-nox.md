@@ -1,19 +1,17 @@
 ---
-title: Lyro Nox
-image: great-council-chambers.jpg
+title: 'Lyro Nox'
+header: 'people.png'
+table: {
+    images: ['lyro01.jpg', 'lyro02.jpg', 'lyro03.jpg'],
+    captions: ['Lyro Nox, mid performance', 'The performer in portrait', 'Signing autographs for fans'],
+    keys: ['Aliases', 'Race', 'Gender', 'Profession', 'Alignment', 'Status'],
+    values: ['The Bard of Whispers@The Choir of One@Madame Monsieur', 'Half-Elf', 'Androgynous & genderfluid, known for a highly distinctive & theatrical wardrobe', 'World-renowned travelling storyteller, musician, and vocal stylist', 'Publicly generous; private motives unknown', 'Active, Currently touring the outer territories'],
+}
 ---
 
 # Lyro Nox
 
-|   |   |
-|---|---|
-|__Race__| Half-Elf |
-|__Gender__| Presentation Androgynous, Known for Highly Distinctive and Theatrical Wardrobe |
-|__Profession__| World-renowned Travelling Musician and Vocal Stylist |
-|__Alignment__| Publicly Generous; Private Motives Unknown |
-|__Status__| Active, Currently Touring the XXX |
-
-Lyro Nox is widely regarded as the most gifted and popular performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the XXX, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
+Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the XXX, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
 
 Lyro is famous for performing duets, trios, and even full choir pieces entirely solo, flawlessly switching between tempos and registers. Many listeners claim to recognize specific, distinctive tones—such as the "bellow of a seasoned Dwarven sailor", the "delicate sigh of an ancient Celestial", or the "high pitched wailing of a Banshee in flight". The fact each can come from a single person seems to defy all known acoustic physics. 
 

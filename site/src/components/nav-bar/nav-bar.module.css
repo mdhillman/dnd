@@ -4,8 +4,29 @@
     background-color: var(--background01);
     display: flex;
     flex-direction: row;
+
+    align-items: center;
+    justify-content: right;
+
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-image: linear-gradient(90deg, var(--highlight01), var(--highlight03)) 1;
 }
 
 .navItem {
-    border: 1px solid red;
+    height: 100%;
+    aspect-ratio: 1;
+    color: var(--text);
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    border-color: var(--background03);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navItem:hover {
+    color: var(--textHover);
 }

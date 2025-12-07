@@ -55,3 +55,29 @@
     font-weight: bolder;
     margin: 0;
 }
+
+code {
+    color: var(--highlight01);
+    font-weight: bold;
+
+    background-color: var(--background01);
+    padding: var(--spacingS);
+}
+
+blockquote {
+    background-color: #484848;
+    padding: var(--spacingXL);
+    margin: var(--spacingXL);
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: var(--spacingXXL);
+}

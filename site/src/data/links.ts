@@ -122,7 +122,7 @@ export const MAIN_LINKS: SidePanelLink[] = [
         icon: "videogame_asset",
         sublinks: [
             {
-                name: "Rules of conduct",
+                name: "From the DM",
                 link: "/?info=rules-of-conduct",
                 tooltip: "Introduction from the DM & house rules",
                 icon: "gavel"

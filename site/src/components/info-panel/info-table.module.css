@@ -1,0 +1,83 @@
+.wrapper {
+    width: 20rem;
+    position: relative;
+    right: 0;
+    top: 0;
+    float: right;
+
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacingXXL) 0 var(--spacingXXL) var(--spacingXXL);
+    background-color: var(--background02);
+}
+
+.tableWidget {
+    display: flex;
+    flex-direction: column; 
+
+    font-size: 80%;
+    border: 2px solid var(--background04);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tableWidget img {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.tableCarousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: var(--background04);
+}
+
+.tableCarousel :global(.material-icons):first-child {
+    max-width: 2rem;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.tableCarousel p {
+    flex-grow: 1;
+    text-align: center;
+    vertical-align: middle;
+    margin: var(--spacingL) 0;
+    font-style: italic;
+}
+
+.tableCarousel :global(.material-icons):last-child {
+    max-width: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.tableCarousel :global(.material-icons):hover {
+    color: var(--textHover);
+}
+
+table {
+    border-spacing: 0;
+}
+
+th {
+    display: none;
+}
+
+td {
+    padding: var(--spacingM);
+    border-style: solid;
+    border-color: var(--background04);
+}
+
+td:first-child {
+    background-color: var(--background03);
+    border-width: 2px 2px 0 0;
+}
+td:last-child {
+    border-width: 2px 0 0 0;
+    
+}
