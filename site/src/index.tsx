@@ -1,62 +1,90 @@
-import { FC } from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import MapPanel from './components/map-panel/map-panel';
-import { useNavigate, useSearchParams } from "react-router";
-import PageWrapper from './components/page-wrapper/page-wrapper';
-import InfoPanel from './components/info-panel/info-panel';
-import { Buffer } from 'buffer';
+import { FC, useContext, useEffect, useState } from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MapPanel from "./components/map-panel/map-panel";
+import InfoPanel from "./components/info-panel/info-panel";
+import { Buffer } from "buffer";
+import { LandingPage } from "./components/landing-page/landing-page";
+import { getCodesFromCookie } from "./utilties";
+import { CookieContext } from "./contexts";
+import { createTheme, ThemeProvider } from "@mui/material";
+import WrapWithNavigation from "./components/wrap-with-navigation/wrap-with-navigation";
 
-import './global.css';
-import { LandingPage } from './components/landing-page/landing-page';
-import { getCodesFromCookie } from './utilties';
-
-
-
+import "./global.css";
 
 // Check if the Buffer global is defined, if not, attach the polyfill
-if (typeof window !== 'undefined' && typeof window.Buffer === 'undefined') {
-  window.Buffer = Buffer;
+if (typeof window !== "undefined" && typeof window.Buffer === "undefined") {
+    window.Buffer = Buffer;
 }
 
-// Main page
-const MainPage: FC = () => {
-    //let [params] = useSearchParams();
-    //const infoParam = params.get("info");
+// Used to ensure Material is using the dark theme
+const materialDarkTheme = createTheme({
+    palette: {
+        mode: "dark",
+    },
+});
 
-    const navigate = useNavigate();
-    
-    const cookies = getCodesFromCookie();
-    if(!cookies.includes('accept-cookies')) {
-        navigate('/landing');
-        return;
+// When visiting the root page, gates access if the cookie is not set
+const CookieGate: FC = () => {
+    const cookies = useContext(CookieContext).sort();
+    if (!cookies.includes("accept-cookies")) {
+        return <LandingPage />;
     }
 
-    <PageWrapper>
-        <InfoPanel/>
-    </PageWrapper>
-}
+    return (
+        <WrapWithNavigation>
+            <InfoPanel />
+        </WrapWithNavigation>
+    );
+};
 
-/**
- * 
- * @returns 
+/*
+ * Top level wrapper that defines routes and adds site-wide contexts.
  */
-const CustomRoutes: FC = () => (
-    <Routes>
-        <Route path='/' element={<MainPage/>}/>
-        <Route path='/landing' element={<LandingPage/>}/>
-        <Route path='/map' element={<MapPanel/>}/>
-        <Route path='/info' element={<InfoPanel filename='home'/>}/>
-    </Routes>
-);
+const SiteWrapper: FC = () => {
+    const [cookies, setCookies] = useState<string[]>([]);
 
-const container = document.querySelector('#root');
+    useEffect(() => {
+        setCookies(getCodesFromCookie());
+    }, []);
 
-if(container != null) {
+    return (
+        <CookieContext.Provider value={cookies}>
+            <ThemeProvider theme={materialDarkTheme}>
+                <Routes>
+                    <Route path="/" element={<CookieGate />} />
+                    <Route path="/landing" element={<LandingPage />} />
+                    <Route
+                        path="/map"
+                        element={
+                            <WrapWithNavigation>
+                                <MapPanel />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
+                        path="/info"
+                        element={
+                            <WrapWithNavigation>
+                                <InfoPanel />
+                            </WrapWithNavigation>
+                        }
+                    />
+                </Routes>
+            </ThemeProvider>
+        </CookieContext.Provider>
+    );
+};
+
+/*
+ * Render the site.
+ */
+const container = document.querySelector("#root");
+if (container != null) {
     const root = ReactDOM.createRoot(container);
     root.render(
         <BrowserRouter>
-            <CustomRoutes/>
-        </BrowserRouter>
+            <SiteWrapper />
+        </BrowserRouter>,
     );
 }

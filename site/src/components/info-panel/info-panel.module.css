@@ -35,6 +35,12 @@
     cursor: pointer;
 }
 
+@media all and (max-height: 850px) {
+    .headerImage {
+        height: 7.5rem;
+    }
+}
+
 .error {
     display: flex;
     flex-direction: column;

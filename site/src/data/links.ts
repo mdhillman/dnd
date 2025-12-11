@@ -27,13 +27,13 @@ export const MAIN_LINKS: SidePanelLink[] = [
             },
             {
                 name: "Nations",
-                link: "/?info=nations",
+                link: "/info?content=nations",
                 tooltip: "Read about the main nation-states on Theia",
                 icon: "flag"
             },
             {
                 name: "Climate",
-                link: "/?info=climate",
+                link: "/info?content=climate",
                 tooltip: "Learn about the different climates on Theia",
                 icon: "air"
             },
@@ -53,19 +53,19 @@ export const MAIN_LINKS: SidePanelLink[] = [
             },
             {
                 name: "Gods",
-                link: "/?info=gods",
+                link: "/info?content=gods",
                 tooltip: "Learn about the greater & lesser pantheons",
                 icon: "account_balance"
             },
             {
                 name: "Organisations",
-                link: "/?info=organisations",
+                link: "/info?content=organisations",
                 tooltip: "Details on the most influential organisations",
                 icon: "groups3"
             },
               {
                 name: "Notable people",
-                link: "/?info=notable-people",
+                link: "/info?content=notable-people",
                 tooltip: "Read about those that have made history",
                 icon: "person_pin_circle"
             },
@@ -79,37 +79,37 @@ export const MAIN_LINKS: SidePanelLink[] = [
         sublinks: [
             {
                 name: "The beginning",
-                link: "/?info=the-beginning",
+                link: "/info?content=the-beginning",
                 tooltip: "Read about the forming of the world",
                 icon: "start"
             },
             {
                 name: "The age of legends",
-                link: "/?info=the-age-of-legends",
+                link: "/info?content=the-age-of-legends",
                 tooltip: "Learn about when stories were made",
                 icon: "hourglass_empty"
             },
             {
                 name: "The breaking",
-                link: "/?info=the-breaking",
+                link: "/info?content=the-breaking",
                 tooltip: "[REDACTED]",
                 icon: "hourglass_bottom"
             },
             {
                 name: "The new age",
-                link: "/?info=the-new-age",
+                link: "/info?content=the-new-age",
                 tooltip: "On the state of the world today",
                 icon: "hourglass_full"
             },
             {
                 name: "Magic",
-                link: "/?info=magic",
+                link: "/info?content=magic",
                 tooltip: "Learn about Theia's magical systems",
                 icon: "auto_fix_high"
             },
             {
                 name: "Relics",
-                link: "/?info=relics",
+                link: "/info?content=relics",
                 tooltip: "Read about powerful items lost & found",
                 icon: "hardware"
             }
@@ -123,19 +123,19 @@ export const MAIN_LINKS: SidePanelLink[] = [
         sublinks: [
             {
                 name: "From the DM",
-                link: "/?info=rules-of-conduct",
+                link: "/info?content=rules-of-conduct",
                 tooltip: "Introduction from the DM & house rules",
                 icon: "gavel"
             },
             {
                 name: "Session recaps",
-                link: "/?info=session-recaps",
+                link: "/info?content=session-recaps",
                 tooltip: "Recaps on each session",
                 icon: "replay"
             },
             {
                 name: "Cookies & privacy",
-                link: "/?info=privacy",
+                link: "/info?content=privacy",
                 tooltip: "Details on cookies & privacy policy",
                 icon: "cookie"
             }

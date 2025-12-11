@@ -1,0 +1,88 @@
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--background01);
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.heading {
+    color: var(--text);
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.heading span:nth-child(6) {
+    color: var(--highlight01);
+}
+
+.subheading {
+    color: var(--text);
+    font-size: 1.2rem;
+    margin: var(--spacingXXL);
+    width: 50%;
+}
+
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    pointer-events: all;
+    font-size: 80%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.buttonContainer button:first-child {
+    background-color: var(--highlight01);
+    color: var(--background01);
+    
+}
+
+.buttonContainer button:last-child {
+    border-color: var(--highlight01);
+    color: var(--highlight01);
+}
+
+.buttonContainer button:first-child:hover {
+    opacity: 0.8;
+}
+
+.buttonContainer button {
+    font-weight: bold;
+    border-radius: var(--spacingXXL);
+    margin-top: var(--spacingXXL);
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.buttonContainer:nth-child(1):hover {
+    background-color: var(--background03);
+    border-color: var(--highlight01);
+    color: var(--highlight01);
+}

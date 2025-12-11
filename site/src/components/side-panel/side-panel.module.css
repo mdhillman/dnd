@@ -34,6 +34,12 @@
     background-color: var(--background01);
 }
 
+@media all and (max-height: 850px) {
+    .linkItem {
+        height: 0.85rem;
+    }
+}
+
 .linkIcon {
     font-size: 1.25rem !important;
     padding-right: var(--spacingM);

@@ -8,10 +8,7 @@ import remarkToc from "remark-toc";
 import { InfoTable, InfoTableProps } from "./info-table";
 import { removeCookie } from "../../utilties";
 import { CookieContext } from "../../contexts";
-
-export interface InfoPanelProps {
-    filename: string;
-}
+import { useSearchParams } from "react-router-dom";
 
 const ErrorPanel: FC = () => {
     return (
@@ -41,16 +38,18 @@ interface GrayMatterData {
 } 
 
 
-const InfoPanel: FC<InfoPanelProps> = ({filename}) => {
+const InfoPanel: FC = () => {
     const [mdTags, setMdTags] = useState<GrayMatterData | null>(null);
     const [mdContent, setMdContent] = useState<string | null>(null);
 
     const [error, setError] = useState<boolean>(false);
     const [loading, setLoading] = useState<boolean>(true);
 
-    const headerImage = mdTags?.header ? `/images/${mdTags.header}` : null;
-
     const cookies = useContext(CookieContext).sort();
+    const [params] = useSearchParams();
+
+    const filename = params.get("content") ?? 'home';
+    const headerImage = mdTags?.header ? `/images/${mdTags.header}` : null;
 
     useEffect(() => {
         setLoading(true);

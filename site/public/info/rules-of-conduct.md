@@ -3,7 +3,7 @@ title: 'From the DM'
 header: 'dungeon-master.jpg'
 ---
 
-Welcome, adventurers, to the world of Theia (_THEE-uh_), a land where anything can happen, and has! This campaign is a journey into the dark, fantastical, and down-write degenerate mind of your DM. Expect high stakes, bizarre magical chaos, and the occasional existential monologue delivered by the most apathetic child you've ever met. You will be asked to confront world-ending crises that were caused by either bureaucratic oversight or divine incompetence, proving that the greatest tragedies are often just administrative errors writ large. Remember to pack your sharpest wit—and your most resilient filing system.
+Welcome, adventurers, to the world of Theia (_thay-uh_), a land where anything can happen, and has! This campaign is a journey into the dark, fantastical, and down-write degenerate mind of your DM. Expect high stakes, bizarre magical chaos, and the occasional existential monologue delivered by the most apathetic child you've ever met. You will be asked to confront world-ending crises that were caused by either bureaucratic oversight or divine incompetence, proving that the greatest tragedies are often just administrative errors writ large. Remember to pack your sharpest wit—and your most resilient filing system.
 
 ## The purpose of this site
 
