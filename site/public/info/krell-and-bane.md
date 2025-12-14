@@ -5,7 +5,7 @@ header: 'people.png'
 
 # Barnaby Krell & Sylvania Bane
 
-Barnaby Krell (Necromancer) and Sylvania Bane (Sorcerer) were a couple defined by their volatile, passionate, and extremely profitable love of chaos. They tore through the northern territories for over a decade, treating every treasury and bank as a stage for their unique brand of magical anarchy.
+Barnaby Krell (Human, Necromancer) and Sylvania Bane (High-Elf, Sorcerer) were a couple defined by their volatile, passionate, and extremely profitable love of chaos. They tore through the northern territories for over a decade, treating every treasury and bank as a stage for their unique brand of magical anarchy.
 
 While Krell pursued pure mayhem for the sheer fun of it, Bane possessed a brilliant, obsessive intellect. She was a self-taught expert in Realmatic Theory (the arcane study of the multiverse), planar interaction, and the nature of reality itself. She viewed their crime sprees less as simple larceny and more as an extended, dangerous field experiment designed to test the structural integrity of Theia's reality. The more chaos they inflicted, the more she hoped to see the fundamental seams of the world - and perhaps the source of the persistent magical static surrounding the Spire.
 
