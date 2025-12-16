@@ -1,20 +1,19 @@
 import {useEffect, useRef, useState} from "react";
 import mapboxgl from 'mapbox-gl';
 import {Map} from "mapbox-gl";
-
 import 'mapbox-gl/dist/mapbox-gl.css';
-import styles from './map-panel.module.css';
 import { IconButton} from "@mui/material";
 import MapIcon from '@mui/icons-material/Map';
 import PublicIcon from '@mui/icons-material/Public';
 import LandscapeIcon from '@mui/icons-material/Landscape';
-
 import * as Sources from '../../data/sources';
+
+import styles from './page-map.module.css';
 
 type MapProjection = 'mercator' | 'globe';
 
 
-function MapPanel() {
+function MapPage() {
     const mapRef = useRef<Map | null>(null)
     const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -75,4 +74,4 @@ function MapPanel() {
     );
 }
 
-export default MapPanel;
+export default MapPage;

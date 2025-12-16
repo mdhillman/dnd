@@ -15,14 +15,21 @@ interface WrapWithNavigationProps {
  */
 const WrapWithNavigation: FC<WrapWithNavigationProps> = ({ children }) => {
     const [modalOpen, setModalOpen] = useState<boolean>(false);
+    const [menuOpen, setMenuOpen] = useState<boolean>(true);
+
+    const toggleMenu = () => {
+        setMenuOpen(prev => !prev);
+    }
 
     return (
        <>
           <CodeModal open={modalOpen} />
-          <NavigationBar onModalOpen={() => setModalOpen(true)} />
+          <NavigationBar onModalOpen={() => setModalOpen(true)} onSidePanelToggle={toggleMenu} />
+
           <div className={styles.container}>
-              <SidePanel links={MAIN_LINKS} />
-              {children}
+
+            {menuOpen && <SidePanel links={MAIN_LINKS} />}
+            {children}
           </div>
         </>
     );

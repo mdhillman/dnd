@@ -60,7 +60,7 @@ export const MAIN_LINKS: SidePanelLink[] = [
             {
                 name: "Organisations",
                 link: "/info?content=organisations",
-                tooltip: "Details on the most influential organisations",
+                tooltip: "Details on the most influential groups & organisations",
                 icon: "groups3"
             },
               {

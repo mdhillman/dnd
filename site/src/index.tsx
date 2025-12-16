@@ -1,7 +1,7 @@
 import { FC, useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MapPanel from "./components/map-panel/map-panel";
+import MapPage from "./pages/map/page-map";
 import InfoPanel from "./components/info-panel/info-panel";
 import { Buffer } from "buffer";
 import { LandingPage } from "./components/landing-page/landing-page";
@@ -58,7 +58,7 @@ const SiteWrapper: FC = () => {
                         path="/map"
                         element={
                             <WrapWithNavigation>
-                                <MapPanel />
+                                <MapPage />
                             </WrapWithNavigation>
                         }
                     />
