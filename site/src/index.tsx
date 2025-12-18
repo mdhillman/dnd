@@ -11,6 +11,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import WrapWithNavigation from "./components/wrap-with-navigation/wrap-with-navigation";
 
 import "./global.css";
+import HistoryPage from "./pages/history/page-history";
 
 // Check if the Buffer global is defined, if not, attach the polyfill
 if (typeof window !== "undefined" && typeof window.Buffer === "undefined") {
@@ -67,6 +68,14 @@ const SiteWrapper: FC = () => {
                         element={
                             <WrapWithNavigation>
                                 <InfoPanel />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
+                        path="/history"
+                        element={
+                            <WrapWithNavigation>
+                                <HistoryPage />
                             </WrapWithNavigation>
                         }
                     />

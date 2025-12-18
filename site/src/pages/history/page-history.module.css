@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    padding: var(--spacingXXL);
+    overflow-y: auto;
+}
+
+.content {
+    flex-grow: 1; 
+    font-size: 0.9rem;
+    color: var(--text);
+    padding: 0 var(--spacingXXL);
+
+    border-radius: 0 0 1rem 1rem;
+    background-color: var(--background02);
+
+    border-width: 2px 0 0 0;
+    border-image: linear-gradient(90deg, var(--highlight01), var(--highlight03)) 1;
+    border-style: solid;
+}
+
+.content h1, h2, h3, h4, h5 {
+    color: color-mix(in hsl, var(--text) 66%, var(--highlight01) 33%);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: var(--dark-tertiary);
+}
+
+.headerImage {
+    height: 15rem;
+    border-radius: 1rem 1rem 0 0; 
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media all and (max-height: 850px) {
+    .headerImage {
+        height: 10rem;
+    }
+}

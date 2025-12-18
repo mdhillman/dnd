@@ -3,15 +3,15 @@ title: 'Organisations'
 header: 'thump.jpg'
 table: {
     images: ['thump01.jpg', 'thump02.jpg', 'thump03.jpg'],
-    captions: ['A typical T.H.U.M.P member', 'A successful arrest','Signing autographs for fans', 'Current chief Thaddeus P Stone'],
+    captions: ['A typical T.H.U.M.P member', 'A successful arrest','Signing autographs for fans', 'Current chief Lord Thaddeus T Thorne'],
     keys: ['Aliases', 'Composition', 'Effectiveness', 'Chief'],
-    values: ['The Heavies@The Door Knockers@Oh Gods No, Not Them', 'Mostly Trolls, Constructs, Dwarves, and Humans', 'High effective at catching rogue spellcasters.@Terrible at minimising collateral damage.', 'Thaddeus P Stone'],
+    values: ['The Heavies@The Door Knockers@Oh Gods No, Not Them', 'Mostly Trolls, Constructs, Dwarves, and Humans', 'High effective at catching rogue spellcasters.@Terrible at minimising collateral damage.', 'Lord Thaddeus T Thorne'],
 }
 ---
 
 # T.H.U.M.P
 
-T.H.U.M.P, Tactical Hex Unit & Magical Policing (though often colloquially referred to as "The Heavies", "The Door Knockers", or "Oh Gods No, Not Them"), is a specialized, high-impact sub-division of municipal law enforcement forces in major metropolitan centers across Theia, most notably cities with high magical activity like XXX or XXX.
+T.H.U.M.P, Tactical Hex Unit & Magical Policing (though often colloquially referred to as "The Heavies", "The Door Knockers", or "Oh Gods No, Not Them"), is a specialized, high-impact sub-division of municipal law enforcement forces in major metropolitan centers across Theia, most notably cities with high magical activity like XXX or XXX. The organisation is lead by [Commander Thaddeus T Thorne](/info?content=thaddeus-thorne), who is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
 
 Unlike standard arcane investigators who utilize divination rituals and complex counter-spells, T.H.U.M.P units are deployed for "decisive kinetic intervention" in high risk magical situations where subtlety has failed or is deemed contractually unnecessary. Their primary mandate is the physical disruption of spellcasting engaged in by hostile entities, usually through the application of overwhelming blunt force trauma.
 
@@ -19,7 +19,7 @@ Unlike standard arcane investigators who utilize divination rituals and complex 
 
 The need for a unit like T.H.U.M.P arose during later years of [The New Age](), as urban populations grew denser and the ambient magical background radiation of Theian cities increased. Traditional city guards, armed with standard issue chainmail and halberds, found themselves woefully under-equipped to handle "Code Magenta" incidents, such as spontaneous polymorph riots or unlicensed Lich activity in residential zoning areas.
 
-The catalyzing event for the formation of the inaugural T.H.U.M.P unit is widely considered to be the "Vanderratz Tower Incident" of 1384 NA. An, arguably unhinged, Transmutation specialist, angry about rising property taxes, sealed himself in his tower with an anti-magic field and began turning passing tax collectors into decorative lawn flamingos. Because magic could not penetrate the tower to neutralize him, the City Council authorized a simpler approach. A squad of decommissioned Siege Golems and three particularly large Hill Trolls were hired to simply push the tower over.
+The catalyzing event for the formation of the inaugural T.H.U.M.P unit is widely considered to be the "Vanderratz Tower Incident" of 1384 NA. An, arguably unhinged, Transmutation specialist, angry about rising property taxes, sealed himself in his tower with a powerful Globe of Invulnerability spell and began turning passing tax collectors into decorative lawn flamingos. Because magic could not penetrate the tower to neutralize him, the City Council authorized a simpler approach. A squad of decommissioned Warforged and three particularly large Hill Trolls were hired to simply push the tower over.
 
 The operation was deemed a success (despite the complete destruction of three adjacent city blocks), and the doctrine of "Physical Resistance to Arcane Nonsense" was established.
 

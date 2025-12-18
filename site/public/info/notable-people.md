@@ -7,3 +7,4 @@ header: 'people.png'
 
 * [Lyro Nox](/info?content=lyro-nox)
 * [Krell & Bane](/info?content=krell-and-bane)
+* [Commander Thaddeus T Thorne](/info?content=thaddeus-thorne)

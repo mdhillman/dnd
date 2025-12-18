@@ -1,14 +1,15 @@
-import { FC, useEffect, useState, useMemo, useContext } from "react";
-import matter, { GrayMatterFile } from 'gray-matter';
-import styles from './info-panel.module.css';
+import { FC, useEffect, useState, useContext } from "react";
+import matter from 'gray-matter';
 import ReactMarkdown from "react-markdown";
-import { Button, getNativeSelectUtilityClasses, Tooltip } from "@mui/material";
+import { Button, Tooltip } from "@mui/material";
 import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import { InfoTable, InfoTableProps } from "./info-table";
 import { removeCookie } from "../../utilties";
 import { CookieContext } from "../../contexts";
 import { useSearchParams } from "react-router-dom";
+
+import styles from './info-panel.module.css';
 
 const ErrorPanel: FC = () => {
     return (
@@ -93,7 +94,6 @@ const InfoPanel: FC = () => {
         );
     }
 
-    
     const openImage = () => {
         if(!headerImage) return;
         window.open(headerImage, '_blank');
@@ -103,7 +103,7 @@ const InfoPanel: FC = () => {
         <div className={styles.container}>
             {headerImage && (
                 <Tooltip title="Click to view full image" followCursor>
-                    <img className={styles.headerImage} src={headerImage} onClick={openImage}/>
+                    <img className={styles.headerImage} src={headerImage} alt={headerImage} onClick={openImage}/>
                 </Tooltip>
             )}
             
