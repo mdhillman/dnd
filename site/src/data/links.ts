@@ -53,7 +53,7 @@ export const MAIN_LINKS: SidePanelLink[] = [
             },
             {
                 name: "Gods",
-                link: "/info?content=gods",
+                link: "/gods",
                 tooltip: "Learn about the greater & lesser pantheons",
                 icon: "account_balance"
             },

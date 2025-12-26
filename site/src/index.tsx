@@ -12,6 +12,7 @@ import WrapWithNavigation from "./components/wrap-with-navigation/wrap-with-navi
 
 import "./global.css";
 import HistoryPage from "./pages/history/page-history";
+import GodsPage from "./pages/gods/page-gods";
 
 // Check if the Buffer global is defined, if not, attach the polyfill
 if (typeof window !== "undefined" && typeof window.Buffer === "undefined") {
@@ -76,6 +77,14 @@ const SiteWrapper: FC = () => {
                         element={
                             <WrapWithNavigation>
                                 <HistoryPage />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
+                        path="/gods"
+                        element={
+                            <WrapWithNavigation>
+                                <GodsPage />
                             </WrapWithNavigation>
                         }
                     />
