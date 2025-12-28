@@ -28,6 +28,7 @@ const defaultTiles: ChromaItem[] = [
         image: "/images/beldar.png",
         title: "Beldar",
         subtitle: "The Expanse",
+        url: "/info?content=beldar",
         borderColor: "#06B6D4",
         gradient: "linear-gradient(135deg, #06B6D4, #000)",
     },
