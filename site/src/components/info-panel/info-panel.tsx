@@ -5,7 +5,7 @@ import { Button, Tooltip } from "@mui/material";
 import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import { InfoTable, InfoTableProps } from "./info-table";
-import { removeCookie } from "../../utilties";
+import { removeCookie } from "../../cookies";
 import { CookieContext } from "../../contexts";
 import { useSearchParams } from "react-router-dom";
 

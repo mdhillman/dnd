@@ -38,8 +38,6 @@
     width: 50%;
 }
 
-
-
 .footer {
     position: absolute;
     left: 0;
@@ -61,7 +59,6 @@
 .buttonContainer button:first-child {
     background-color: var(--highlight01);
     color: var(--background01);
-    
 }
 
 .buttonContainer button:last-child {
@@ -85,4 +82,38 @@
     background-color: var(--background03);
     border-color: var(--highlight01);
     color: var(--highlight01);
+}
+
+@media screen and (max-device-width: 1200px){
+    .container {
+        background-image: url("/public/images/d20.svg");
+        background-size: 15%;
+        background-repeat: space;
+        background-position: center;
+        background-blend-mode: overlay;
+    }
+
+    .heading {
+        font-size: 7rem;
+    }
+
+    .subheading {
+        font-size: 2rem;
+        width: 85%;
+    }
+
+    .footer {
+        font-size: 1.25rem;
+    }
+
+    .buttonContainer {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .buttonContainer button {
+        flex-grow: 1;
+        font-size: 1.5rem;
+        height: 4rem;
+    }
 }

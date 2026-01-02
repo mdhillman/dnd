@@ -6,56 +6,37 @@
     --spacingXL: 12px;
     --spacingXXL: 20px;
     --textHover: color-mix(in hsl, var(--text) 50%, var(--highlight01) 50%);
-}
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --highlight01: darkorange;
-        --highlight02: darkcyan;
-        --highlight03: darkmagenta;
+    --highlight01: darkorange;
+    --highlight02: darkcyan;
+    --highlight03: darkmagenta;
 
-        --text: #e1e1e1;
+    --text: #e1e1e1;
 
-        --dark-primary: #121212;
-        --dark-secondary: color-mix(in hsl, var(--dark-primary) 92%, white 8%);
-        --dark-tertiary: color-mix(in hsl, var(--dark-primary) 86%, white 14%);
+    --dark-primary: #121212;
+    --dark-secondary: color-mix(in hsl, var(--dark-primary) 92%, white 8%);
+    --dark-tertiary: color-mix(in hsl, var(--dark-primary) 86%, white 14%);
 
-        --background01: color-mix(
-            in hsl,
-            var(--dark-primary) 92%,
-            var(--highlight01) 8%
-        );
-        --background02: color-mix(
-            in hsl,
-            var(--dark-primary) 86%,
-            var(--highlight01) 14%
-        );
-        --background03: color-mix(
-            in hsl,
-            var(--dark-primary) 80%,
-            var(--highlight01) 20%
-        );
-        --background04: color-mix(
-            in hsl,
-            var(--dark-primary) 60%,
-            var(--highlight01) 40%
-        );
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --highlight01: #7a437a;
-        --highlight02: #895788;
-        --highlight03: #976b96;
-
-        --text: #121212;
-
-        --background01: #e1e1e1;
-        --background02: #d3d3d3;
-        --background03: #c5c5c5;
-        --background04: #c5c5c5;
-    }
+    --background01: color-mix(
+        in hsl,
+        var(--dark-primary) 92%,
+        var(--highlight01) 8%
+    );
+    --background02: color-mix(
+        in hsl,
+        var(--dark-primary) 86%,
+        var(--highlight01) 14%
+    );
+    --background03: color-mix(
+        in hsl,
+        var(--dark-primary) 80%,
+        var(--highlight01) 20%
+    );
+    --background04: color-mix(
+        in hsl,
+        var(--dark-primary) 60%,
+        var(--highlight01) 40%
+    );
 }
 
 /* Common elements */
@@ -104,10 +85,10 @@ body {
 .revealed {
     background: repeating-linear-gradient(
         45deg,
-        #FFC2AA,
-        #FFC2AA 20px,
-        #FFB395 20px,
-        #FFB395 40px
+        #ffc2aa,
+        #ffc2aa 20px,
+        #ffb395 20px,
+        #ffb395 40px
     );
     color: var(--background01);
     padding: var(--spacingM) var(--spacingXXL);
