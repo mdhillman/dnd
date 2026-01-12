@@ -1,7 +1,7 @@
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, TextField } from "@mui/material";
 import { FC, useState } from "react";
 import styles from './code-modal.module.css';
-import { addCodeToCookie } from "../../utilties";
+import { addCodeToCookie } from "../../cookies";
 
 export interface CodeModalProps {
     open: boolean;

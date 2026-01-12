@@ -35,6 +35,10 @@
     cursor: pointer;
 }
 
+.chroma {
+    margin: var(--spacingXXL) 0;
+}
+
 @media all and (max-height: 850px) {
     .headerImage {
         height: 10rem;

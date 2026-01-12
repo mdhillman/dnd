@@ -1,11 +1,12 @@
 import { FC, useEffect, useState } from "react";
-import Cubes from "../cubes";
-import SplitText from '../split-text/split-text';
+import Cubes from "../../components/cubes";
+import SplitText from '../../components/split-text/split-text';
 import { Button, Tooltip } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { addCodeToCookie } from "../../utilties";
+import { addCodeToCookie } from "../../cookies";
 
 import styles from './landing-page.module.css';
+import { useWindowDimensions } from "../../hooks";
 
 function convertRemToPixels(rem: number) {    
     return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
@@ -16,6 +17,10 @@ export const LandingPage: FC = () => {
     const [foreground, setForeground] = useState<string | null>(null);
 
     const navigate = useNavigate();
+    const windowSize = useWindowDimensions();
+
+    const isMobile = windowSize.width < 800 || (windowSize.height > (windowSize.width * 1.5));
+    console.log('IS MOBILE = ' + isMobile + ", WINDOW WIDTH IS " + windowSize.width);
 
     useEffect(() => {
         setBackground(window.getComputedStyle(document.body).getPropertyValue('--background02'));
@@ -63,7 +68,7 @@ export const LandingPage: FC = () => {
                 </p>
             </div>
 
-            {background && foreground && (
+            {background && foreground && !isMobile && (
                 <Cubes 
                     gridSize={16}
                     cellGap={convertRemToPixels(3.5)}

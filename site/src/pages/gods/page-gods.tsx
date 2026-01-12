@@ -33,9 +33,10 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(135deg, #06B6D4, #000)",
     },
     {
-        image: "/images/chronitos.png",
-        title: "Chronitos",
+        image: "/images/sylaris.png",
+        title: "Sylaris",
         subtitle: "The Current",
+        url: "/info?content=sylaris",
         borderColor: "#B8860B",
         gradient: "linear-gradient(165deg, #B8860B, #000)",
     },
@@ -43,6 +44,7 @@ const defaultTiles: ChromaItem[] = [
         image: "/images/daesis.png",
         title: "Daesis",
         subtitle: "The Substance",
+        url: "/info?content=daesis",
         borderColor: "#F59E0B",
         gradient: "linear-gradient(165deg, #F59E0B, #000)",
     },
@@ -61,8 +63,8 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(210deg, #10B981, #000)",
     },
     {
-        image: "/images/mort.png",
-        title: "Mort",
+        image: "/images/nihilus.png",
+        title: "Nihilus",
         subtitle: "The Silence",
         borderColor: "#7FFFD4",
         gradient: "linear-gradient(165deg, #7FFFD4, #000)",
@@ -168,7 +170,7 @@ const GodsPage: FC = () => {
                     </div>
                 )}
 
-                <div>
+                <div className={styles.chroma}>
                     <ChromaGrid
                         items={godTiles}
                         columns={showNinth ? 3 : 4}
