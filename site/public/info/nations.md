@@ -9,12 +9,35 @@ The world of Theia is a tapestry woven from countless sovereign territories, kin
 
 These varied states range from sprawling empires and secretive oligarchies to humble tribal lands and bustling mercantile republics, creating a vibrant, often contentious, mosaic of political life across the planet.
 
-## Major nations
+## Major inner nations
+* [The Kindred Concord]()  
+  * [Revelstone]()
+  * [Camorr]()
+  * [Andelain]()
+  * [Doriath]()
+* [The Bronze Union]()
+* [New Mallorea]()
+* [Qacluá]()
+* [The Beldrinite Quartet]():
+  * [People's Republic of Beldrin]()
+  * [Beldrina]()
+  * [Lower Beldrin]()
+  * [Saint Marie]()
 
-Some more information, here's a list of it:
-* bullet 1
-* bullet 2
+## Minor inner nations
+* [Commonwealth of Venthara]()
+* [Free Republic of Dunmar]()
+* [Tylaros]()
+* [Mayene]()
+* [Maldros]()
+* [Grand Fenwick]()
 
-### Subsubheading
-
-A little bit more information
+## Outer nations
+* [Federated States of Eskil]()
+* [Ghis]()
+* [The Golden Isles of Aurron]()
+* [The Silver Isles]()
+* [Cuzalapa]()
+* [Provinciá de Xaliscô]()
+* [Lordship of Solrathis]()
+* [Isla del Suenõs]()
