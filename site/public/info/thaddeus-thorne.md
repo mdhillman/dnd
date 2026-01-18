@@ -18,7 +18,7 @@ Known for his imposing physical presence, profound cynicism regarding the arcane
 
 ## Early Life and career
 
-Little is known of Thorne's early life, though XXX City Hall records suggest he was born in the industrial district of XXX to a family of quarry workers. He briefly worked as a cobblestone layer before enlisting in the standard City Watch at age 20.
+Little is known of Thorne's early life, though [Revelstone](info?content=revelstone) City Hall records suggest he was born in the industrial district of XXX to a family of quarry workers. He briefly worked as a cobblestone layer before enlisting in the standard City Watch at age 20.
 
 Thorne's early career as a beat cop was unremarkable, save for a record-setting number of internal disciplinary complaints filed against him for "Accidental destruction of public property while issuing a citation". Thorne struggled with standard police procedure, frequently breaking quills due to grip strength issues and inadvertently pulling the doors off hinges when knocking on suspect's homes.
 

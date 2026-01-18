@@ -20,7 +20,7 @@ const HistoryPage: FC = () => {
 
             
             <div className={styles.content}>
-                <h1>On the history of Theia</h1>
+                <h1>On the history of Theia: CURRENT YEAR 1491 NA</h1>
             </div>
         </div>
     );

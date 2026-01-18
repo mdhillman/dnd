@@ -72,8 +72,8 @@ code {
 
 blockquote {
     background-color: #484848;
+    margin: var(--spacingXL) var(--spacingXL) var(--spacingXXL) var(--spacingXL);
     padding: var(--spacingXL);
-    margin: var(--spacingXL);
     font-style: italic;
 }
 
