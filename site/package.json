@@ -11,6 +11,8 @@
     "@gsap/react": "^2.1.2",
     "@mui/icons-material": "^7.3.4",
     "@mui/material": "^7.3.4",
+    "@svgdotjs/svg.js": "^3.2.5",
+    "@svgdotjs/svg.panzoom.js": "^2.1.2",
     "@types/react-router-dom": "^5.3.3",
     "buffer": "^6.0.3",
     "core-js": "^3.47.0",

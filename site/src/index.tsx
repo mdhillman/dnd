@@ -13,6 +13,7 @@ import WrapWithNavigation from "./components/wrap-with-navigation/wrap-with-navi
 import "./global.css";
 import HistoryPage from "./pages/history/page-history";
 import GodsPage from "./pages/gods/page-gods";
+import InteractiveMap from "./components/interactive-map/interactive-map";
 
 // Check if the Buffer global is defined, if not, attach the polyfill
 if (typeof window !== "undefined" && typeof window.Buffer === "undefined") {
@@ -60,7 +61,7 @@ const SiteWrapper: FC = () => {
                         path="/map"
                         element={
                             <WrapWithNavigation>
-                                <MapPage />
+                                <InteractiveMap url="/images/test-map.svg" />
                             </WrapWithNavigation>
                         }
                     />
