@@ -4,7 +4,6 @@ import "@svgdotjs/svg.panzoom.js";
 import styles from './interactive-map.module.css';
 import { MAP_LINKS } from "./map-links";
 import { useNavigate } from "react-router-dom";
-import { CircularProgress } from "@mui/material";
 
 interface InteractiveMapProps {
     /** The URL to the .svg file (e.g., /assets/map.svg) */
@@ -116,7 +115,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
 
                     // Minimum visible amount in viewbox coordinates (not pixels)
                     // This ensures consistent behavior at all zoom levels
-                    const minVisibleFraction = 0.15; // 15% of viewport must contain SVG content
+                    const minVisibleFraction = 0.10; // 10% of viewport must contain SVG content
                     const minVisibleX = viewbox.width * minVisibleFraction;
                     const minVisibleY = viewbox.height * minVisibleFraction;
 
@@ -249,14 +248,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
     if (error) return <div style={{ color: "red" }}>Error: {error}</div>;
 
     return (
-        <div className={styles.container}>
-            {loading && (
-                <div className={styles.loading}>
-                    <CircularProgress size="3rem" color={"success"}/>
-                    <h1>Loading map...</h1>
-                </div>
-            )}
-         
+        <div className={styles.container}>         
             <div
                 className={styles.map}
                 ref={containerRef}
