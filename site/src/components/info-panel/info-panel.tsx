@@ -35,7 +35,8 @@ const LoadingPanel: FC = () => {
 interface GrayMatterData {
     title: string,
     header: string,
-    table: InfoTableProps
+    table: InfoTableProps,
+    headerClass?: string,
 } 
 
 
@@ -103,7 +104,7 @@ const InfoPanel: FC = () => {
         <div className={styles.container}>
             {headerImage && (
                 <Tooltip title="Click to view full image" followCursor>
-                    <img className={styles.headerImage} src={headerImage} alt={headerImage} onClick={openImage}/>
+                    <img className={`${styles.headerImage} ${mdTags.headerClass ?? ''}`} src={headerImage} alt={headerImage} onClick={openImage}/>
                 </Tooltip>
             )}
             

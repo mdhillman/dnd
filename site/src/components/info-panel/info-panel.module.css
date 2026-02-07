@@ -41,6 +41,10 @@
     }
 }
 
+:global(.smallHeader) {
+    height: 5rem;
+}
+
 .error {
     display: flex;
     flex-direction: column;
