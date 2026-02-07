@@ -72,37 +72,43 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
                     const viewbox = canvas.viewbox();
                     const svgBox = canvas.bbox();
                     
-                    // Calculate visible boundaries (ensure at least 100px of content is visible)
-                    const minVisiblePx = 100;
-                    const minVisible = minVisiblePx / canvas.zoom();
+                    // Minimum visible amount in viewbox coordinates (not pixels)
+                    // This ensures consistent behavior at all zoom levels
+                    const minVisibleFraction = 0.15; // 15% of viewport must contain SVG content
+                    const minVisibleX = viewbox.width * minVisibleFraction;
+                    const minVisibleY = viewbox.height * minVisibleFraction;
                     
                     let newX = viewbox.x;
                     let newY = viewbox.y;
                     let corrected = false;
                     
-                    // X-axis: Ensure right edge of SVG stays visible
-                    const maxX = svgBox.x + svgBox.width - minVisible;
+                    // X-axis: Ensure right edge of SVG doesn't go too far left
+                    // Right edge of SVG must be at least minVisibleX inside the left edge of viewbox
+                    const maxX = svgBox.x + svgBox.width - minVisibleX;
                     if (viewbox.x > maxX) {
                         newX = maxX;
                         corrected = true;
                     }
                     
-                    // X-axis: Ensure left edge of SVG stays visible
-                    const minX = svgBox.x - viewbox.width + minVisible;
+                    // X-axis: Ensure left edge of SVG doesn't go too far right
+                    // Left edge of SVG must be at least minVisibleX inside the right edge of viewbox
+                    const minX = svgBox.x - viewbox.width + minVisibleX;
                     if (viewbox.x < minX) {
                         newX = minX;
                         corrected = true;
                     }
                     
-                    // Y-axis: Ensure bottom edge of SVG stays visible
-                    const maxY = svgBox.y + svgBox.height - minVisible;
+                    // Y-axis: Ensure bottom edge of SVG doesn't go too far up
+                    // Bottom edge of SVG must be at least minVisibleY inside the top edge of viewbox
+                    const maxY = svgBox.y + svgBox.height - minVisibleY;
                     if (viewbox.y > maxY) {
                         newY = maxY;
                         corrected = true;
                     }
                     
-                    // Y-axis: Ensure top edge of SVG stays visible
-                    const minY = svgBox.y - viewbox.height + minVisible;
+                    // Y-axis: Ensure top edge of SVG doesn't go too far down
+                    // Top edge of SVG must be at least minVisibleY inside the bottom edge of viewbox
+                    const minY = svgBox.y - viewbox.height + minVisibleY;
                     if (viewbox.y < minY) {
                         newY = minY;
                         corrected = true;
@@ -125,7 +131,10 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
                 });
 
                 // Apply constraints continuously during all viewport changes
-                canvas.on('zoom', constrainPanning);
+                canvas.on('zoom', () => {
+                    // Use setTimeout to ensure zoom completes before constraining
+                    setTimeout(constrainPanning, 0);
+                });
                 canvas.on('panning', constrainPanning);
                 canvas.on('panEnd', constrainPanning);
                 
