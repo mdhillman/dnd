@@ -67,16 +67,91 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
 
                 const canvas: Svg = SVG(svgElement).size("100%", "100%");
 
-                // 4. Initialize pan/zoom
+                // Function to constrain panning boundaries
+                const constrainPanning = () => {
+                    const viewbox = canvas.viewbox();
+                    const svgBox = canvas.bbox();
+                    
+                    // Calculate visible boundaries (ensure at least 100px of content is visible)
+                    const minVisiblePx = 100;
+                    const minVisible = minVisiblePx / canvas.zoom();
+                    
+                    let newX = viewbox.x;
+                    let newY = viewbox.y;
+                    let corrected = false;
+                    
+                    // X-axis: Ensure right edge of SVG stays visible
+                    const maxX = svgBox.x + svgBox.width - minVisible;
+                    if (viewbox.x > maxX) {
+                        newX = maxX;
+                        corrected = true;
+                    }
+                    
+                    // X-axis: Ensure left edge of SVG stays visible
+                    const minX = svgBox.x - viewbox.width + minVisible;
+                    if (viewbox.x < minX) {
+                        newX = minX;
+                        corrected = true;
+                    }
+                    
+                    // Y-axis: Ensure bottom edge of SVG stays visible
+                    const maxY = svgBox.y + svgBox.height - minVisible;
+                    if (viewbox.y > maxY) {
+                        newY = maxY;
+                        corrected = true;
+                    }
+                    
+                    // Y-axis: Ensure top edge of SVG stays visible
+                    const minY = svgBox.y - viewbox.height + minVisible;
+                    if (viewbox.y < minY) {
+                        newY = minY;
+                        corrected = true;
+                    }
+                    
+                    // Apply corrected viewbox if needed
+                    if (corrected) {
+                        canvas.viewbox(newX, newY, viewbox.width, viewbox.height);
+                    }
+                };
+
+                // 4. Initialize pan/zoom with panning constraints
                 canvas.panZoom({
                     zoomFactor: 0.1,
                     zoomMin: 0.43,
                     zoomMax: 10,
-                    margins: { top: 0, right: 50, bottom: 50, left: 0 },
+                    panning: true,
+                    panButton: 0,
+                    oneFingerPan: false,
                 });
 
-                canvas.on('panEnd', function (ev) {
-                    console.log(ev);
+                // Apply constraints continuously during all viewport changes
+                canvas.on('zoom', constrainPanning);
+                canvas.on('panning', constrainPanning);
+                canvas.on('panEnd', constrainPanning);
+                
+                // Also use requestAnimationFrame to continuously check during mouse interaction
+                let isPanning = false;
+                let rafId: number | null = null;
+                
+                const continuousConstrain = () => {
+                    if (isPanning) {
+                        constrainPanning();
+                        rafId = requestAnimationFrame(continuousConstrain);
+                    }
+                };
+                
+                svgElement.addEventListener('mousedown', () => {
+                    isPanning = true;
+                    continuousConstrain();
+                });
+                
+                window.addEventListener('mouseup', () => {
+                    isPanning = false;
+                    if (rafId) {
+                        cancelAnimationFrame(rafId);
+                        rafId = null;
+                    }
+                    constrainPanning();
                 });
 
                 // 5. Attach Event Listener
