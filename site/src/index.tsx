@@ -61,7 +61,7 @@ const SiteWrapper: FC = () => {
                         path="/map"
                         element={
                             <WrapWithNavigation>
-                                <InteractiveMap url="/images/highlight-test.svg" />
+                                <InteractiveMap mainMapUrl="/images/world-map.svg" overlayMapUrl="/images/overlay-world-map.svg" />
                             </WrapWithNavigation>
                         }
                     />

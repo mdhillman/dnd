@@ -7,12 +7,14 @@ import { Tooltip } from "@mui/material";
 
 interface InteractiveMapProps {
     /** The URL to the .svg file (e.g., /assets/map.svg) */
-    url: string;
+    mainMapUrl: string;
+    overlayMapUrl: string;
     onGroupClick?: (id: string) => void;
 }
 
 const InteractiveMap: React.FC<InteractiveMapProps> = ({
-    url,
+    mainMapUrl,
+    overlayMapUrl,
     onGroupClick,
 }) => {
     const containerRef = useRef<HTMLDivElement | null>(null);
@@ -49,7 +51,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
             try {
                 setLoading(true);
                 // 1. Fetch the raw SVG text
-                const response = await fetch(url);
+                const response = await fetch(mainMapUrl);
                 if (!response.ok) throw new Error("Failed to load SVG file");
 
                 const svgText = await response.text();
@@ -66,7 +68,16 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
                 const canvas: Svg = SVG(svgElement).size("100%", "100%");
 
                 // 4. Initialize pan/zoom
-                canvas.panZoom();
+                canvas.panZoom({
+                    zoomFactor: 0.1,
+                    zoomMin: 0.43,
+                    zoomMax: 10,
+                    margins: { top: 0, right: 50, bottom: 50, left: 0 },
+                });
+
+                canvas.on('panEnd', function (ev) {
+                    console.log(ev);
+                });
 
                 // 5. Attach Event Listener
                 canvas.on("click", (e: Event) => {
@@ -106,7 +117,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
             isMounted = false;
             if (containerRef.current) containerRef.current.innerHTML = "";
         };
-    }, [url, onGroupClick]);
+    }, [mainMapUrl, onGroupClick]);
 
     if (error) return <div style={{ color: "red" }}>Error: {error}</div>;
 
