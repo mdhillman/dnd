@@ -58,10 +58,18 @@ const SiteWrapper: FC = () => {
                     <Route path="/" element={<CookieGate />} />
                     <Route path="/landing" element={<LandingPage />} />
                     <Route
-                        path="/map"
+                        path="/world-map"
                         element={
                             <WrapWithNavigation>
                                 <InteractiveMap mainMapUrl="/images/world-map.svg" overlayMapUrl="/images/overlay-world-map.svg" />
+                            </WrapWithNavigation>
+                        }
+                    />
+                      <Route
+                        path="/camorr-map"
+                        element={
+                            <WrapWithNavigation>
+                                <InteractiveMap mainMapUrl="/images/world-map.svg" overlayMapUrl="/images/camorr-map.svg" />
                             </WrapWithNavigation>
                         }
                     />

@@ -25,6 +25,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
     const [error, setError] = useState<string | undefined>(undefined);
     const [currentGroupId, setCurrentGroupId] = useState<string | undefined>(undefined);
     const [previousGroupId, setPreviousGroupId] = useState<string | undefined>(undefined);
+    const [mouseDownPos, setMouseDownPos] = useState<{x: number, y: number} | null>(null);
 
     useEffect(() => {
         if (previousGroupId && previousGroupId !== currentGroupId) {
@@ -252,11 +253,24 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
             <div
                 className={styles.map}
                 ref={containerRef}
-                onClick={() => {
-                    const url = MAP_LINKS[currentGroupId ?? ''];
-                    if(url) {
-                        navigate(url);
+                onMouseDown={(e) => {
+                    setMouseDownPos({ x: e.clientX, y: e.clientY });
+                }}
+                onClick={(e) => {
+                    // Only trigger onClick if mouse hasn't moved significantly (not a drag)
+                    if (mouseDownPos) {
+                        const deltaX = Math.abs(e.clientX - mouseDownPos.x);
+                        const deltaY = Math.abs(e.clientY - mouseDownPos.y);
+                        const threshold = 5; // pixels
+                        
+                        if (deltaX < threshold && deltaY < threshold) {
+                            const url = MAP_LINKS[currentGroupId ?? ''];
+                            if(url) {
+                                navigate(url);
+                            }
+                        }
                     }
+                    setMouseDownPos(null);
                 }}
             />
         </div>

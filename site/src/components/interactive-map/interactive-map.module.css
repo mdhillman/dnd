@@ -9,7 +9,7 @@
     width: 100%;
     height: 100%;
     cursor: grab;
-    background-color: #c3dcda;
+    background-color: var(--background03);
 }
 
 [id^="highlight"]  {

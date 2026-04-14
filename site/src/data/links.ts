@@ -21,7 +21,7 @@ export const MAIN_LINKS: SidePanelLink[] = [
         sublinks: [
             {
                 name: "World map",
-                link: "/map",
+                link: "/world-map",
                 tooltip: "Explore the interactive world map",
                 icon: "map"
             },

@@ -43,7 +43,7 @@ The Spire did not simply vaporize the legion. Instead, it interpreted the Mallor
 
 ### Wrapping it up: The Kindred Accord
 
-The end of the war was signaled by the signing of the Kindred Accord in early 1169 NA.
+The end of the war was signaled by the signing of the Kindred Accord in early 1170 NA.
 
 This official conclusion was precipitated by the catastrophic Great Blip in 1168 NA, effectively "setting the military in stone" and ending Mallorea's ability to continue the conflict.
 
