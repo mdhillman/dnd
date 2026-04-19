@@ -10,13 +10,13 @@ The world of Theia is a tapestry woven from countless sovereign territories, kin
 These varied states range from sprawling empires and secretive oligarchies to humble tribal lands and bustling mercantile republics, creating a vibrant, often contentious, mosaic of political life across the planet.
 
 ## Major inner nations
-* **[The Kindred Concord](/dnd/info?content=the-kindred-concord)**: Formed roughly 250 years ago, after [The War of the Unsolicited Re-Indexing](/dnd/info?content=war-of-unsolicited-reindexing), this alliance of predominantly human countries dominates the economical and technological sectors of Theia.
-  * **[Revelstone](/dnd/info?content=revelstone)**: Designated as a city-state and ruled over by the Kindred Concord, this joint-seat of government acts as the de-facto capital of the allied nations.
-  * **[Camorr](/dnd/info?content=camorr)**: Camorr is a sprawling coastal mercantile republic where the national pastime is high-stakes larceny and the most powerful people in the country are accountants with very sharp knives.
-  * **[Andelain](/dnd/info?content=andelain)**:The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins.
-  * **[Doriath](/dnd/info?content=doriath)**: A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia.
+* **[The Kindred Concord](/info?content=the-kindred-concord)**: Formed roughly 250 years ago, after [The War of the Unsolicited Re-Indexing](/info?content=war-of-unsolicited-reindexing), this alliance of predominantly human countries dominates the economical and technological sectors of Theia.
+  * **[Revelstone](/info?content=revelstone)**: Designated as a city-state and ruled over by the Kindred Concord, this joint-seat of government acts as the de-facto capital of the allied nations.
+  * **[Camorr](/info?content=camorr)**: Camorr is a sprawling coastal mercantile republic where the national pastime is high-stakes larceny and the most powerful people in the country are accountants with very sharp knives.
+  * **[Andelain](/info?content=andelain)**:The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins.
+  * **[Doriath](/info?content=doriath)**: A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia.
 
-* **[New Mallorea](/dnd/info?content=new-mallorea)**: Formed from the ruins of the Old Mallorean Empire, not much is known about the current state of this secretive nation of blue-skinned, logic-obsessed zealots.
+* **[New Mallorea](/info?content=new-mallorea)**: Formed from the ruins of the Old Mallorean Empire, not much is known about the current state of this secretive nation of blue-skinned, logic-obsessed zealots.
 
 * **The Bronze Union**: Riddled with desert and swamp-land, the nomadic Dwarves of The Bronze Union are generally hospitable, but prefer to keep to themselves.
 

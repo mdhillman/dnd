@@ -31,7 +31,7 @@ Behind every grand movement, industrial revolution, and shadow organization is a
 
 * **[Lyro Nox](info?content=lyro-nox)**: Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the Kindred Concord, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
 
-* **[Thaddeus Thorne](info?content=thaddeus-thorne)**: Thaddeus Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/dnd/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers. Known for his imposing physical presence, profound cynicism regarding the arcane arts, and a near-supernatural ability to ignore magical effects through sheer stubbornness, Thorne is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
+* **[Thaddeus Thorne](info?content=thaddeus-thorne)**: Thaddeus Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers. Known for his imposing physical presence, profound cynicism regarding the arcane arts, and a near-supernatural ability to ignore magical effects through sheer stubbornness, Thorne is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
 
 ## Notorious Criminals
 
