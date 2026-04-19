@@ -11,7 +11,7 @@ table: {
 
 # Thaddeus T Thorne
 
-Thaddeus "The Fucker" Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers.
+Thaddeus "The Fucker" Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/dnd/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers.
 
 Known for his imposing physical presence, profound cynicism regarding the arcane arts, and a near-supernatural ability to ignore magical effects through sheer stubbornness, Thorne is widely credited with codifying the modern doctrine of "Percussive Counterspelling". He is rarely seen without his signature cigar or wearing anything other than his regulation, lead-lined field plate armor.
 

@@ -22,7 +22,7 @@ The duo's signature tactic was later dubbed by pursuing T.H.U.M.P agents as the 
 2. Bane’s Power: Bane delivered the decisive magical strikes, using Sorcery and her knowledge of Realmatic Flux to exploit weak points in the fabric of space. She specialized in opening tiny, unstable, non-threatening fissures to other planes inside vaults or bank lobbies. This didn't just scare people; it generated valuable, chaotic data (and occasionally allowed them to steal highly desirable ancient pocket lint or fungal spores).
 
 
-> "They once cracked a safe by opening a momentary portal to the Plane of Pure Dessert. The resulting high-pressure custard explosion caused two deaths, three injuries, and, according to Bane's notes, proved her hypothesis regarding the inverse relationship between material value and ontological stability." — [T.H.U.M.P](/info?content=thump) archival report on the raid of the [Iron Chest Treasury]().
+> "They once cracked a safe by opening a momentary portal to the Plane of Pure Dessert. The resulting high-pressure custard explosion caused two deaths, three injuries, and, according to Bane's notes, proved her hypothesis regarding the inverse relationship between material value and ontological stability." — [T.H.U.M.P](/dnd/info?content=thump) archival report on the raid of the [Iron Chest Treasury]().
 
 ## Notorious escapades
 
@@ -34,7 +34,7 @@ The duo's signature tactic was later dubbed by pursuing T.H.U.M.P agents as the 
 
 ## Downfall & arrest
 
-The duo's reign ended during their final, and most daring, attempt to rob the national reserve of the [Kingdom of Formalia](). The kingdom deployed the [Tactical Hex Unit & Magical Policing](/info?content=thump) team (T.H.U.M.P), led by the pragmatic and unflappable [Inspector Theodosia "The Stamp" Rook](). Rook recognized that Krell and Bane's chaos was itself a pattern of constant distraction.
+The duo's reign ended during their final, and most daring, attempt to rob the national reserve of the [Kingdom of Formalia](). The kingdom deployed the [Tactical Hex Unit & Magical Policing](/dnd/info?content=thump) team (T.H.U.M.P), led by the pragmatic and unflappable [Inspector Theodosia "The Stamp" Rook](). Rook recognized that Krell and Bane's chaos was itself a pattern of constant distraction.
 
 As the couple was blasting through the vault door, Rook opted for a counter-attack based on pure, suffocating tedium. She simply produced a Mandatory City Ordinance Notice (form S3-12), read a preamble detailing Noise Pollution Violations in a monotone voice, and issued a Cease and Desist Order to the entire area. Krell and Bane, prepared for spectacular combat or a theoretical debate on planar stability, were instead faced with the crushing authority of the mundane. Bane’s intellectual pursuits were fundamentally based on studying the exotic and unpredictable; the sudden imposition of a perfectly normal, non-magical regulation caused her research interest (and thus her focus) to collapse entirely. Krell’s dancing skeletons all collapsed in a collective stupor when faced with the oppressive dullness of the paperwork.
 
