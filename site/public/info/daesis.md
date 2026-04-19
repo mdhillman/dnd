@@ -1,28 +1,30 @@
 ---
-title: 'Sylaris'
+title: 'Daesis'
 header: 'gods.png'
 table: {
-    images: ['sylaris.png', 'sylaris-symbol.png'],
+    images: ['daesis.png', 'daesis-symbol.png'],
     captions: ['A common depiction in stained glass', 'Symbol used by worshippers'],
     keys: ['Titles', 'Power Level', 'Symbol', 'Domain'],
-    values: ['The Keeper of the Sequence@The Old Clockwork@Lord of Fate', 'Primordial force', 'Three gears surrounding a central hourglass.', 'Law, Fate, Knowledge'],
+    values: ['The Substance@The Master Artificer', 'Primordial force', 'A blacksmiths hammer', 'Progress, Innovation, Technology'],
 }
 ---
 
-# Sylaris
+# Daesis
 
-Often called The Keeper of the Sequence or The River Lord, Sylaris represents the irresistible forward march of reality. In the cosmic interplay of the Octad, if Zareos is the raw energy that makes events possible, Sylaris is the ordering principle that dictates when those events occur and in what order. He is the difference between a chaotic explosion and a functioning engine; he turns random occurrence into history. He is an impartially rigid deity, embodying the concept that every action must have a reaction, and that the past is immutable while the future is inevitable.
+Commonly known as The Substance or The Master Artificer, Daesis is the god of physical matter, tactile creation, and the relentless march of technological progress. He represents the spark of inspiration that transforms raw materials into tools, and tools into empires. While Oriana provides the weight and Zareos provides the energy, Daesis is the intellect that shapes them into form. He is the patron of the forge, the factory, and the laboratory, embodying the belief that the world is a puzzle meant to be solved and improved upon.
 
-Cosmological scholars teach that in the earliest moments of creation, the interaction between energy, matter, and space was instantaneous and chaotic. Everything happened simultaneously in a blinding flash of nonsensical existence. Sylaris is the force that stretched that instantaneous flash into a timeline. He imposed sequence upon the cosmos, creating the concept of "before" and "after." He introduced causality: the absolute law that the cause must precede the effect, thereby creating the framework for logic and history to exist.
+In the cosmology of the Octad, Daesis is the intermediary between the ethereal and the material. He is the god of The Substance - the actual "stuff" of the world - and he teaches that through labor and logic, anything can be refined. To his followers, the universe is not a finished masterpiece but a prototype in constant need of upgrading. While other gods may demand worship through prayer or sacrifice, Daesis demands it through innovation. He is often credited with gifting the mortal races the secrets of the gear, the steam-piston, and the logic-array, though he remains dispassionate about whether his gifts are used for salvation or destruction.
 
-Sylaris’s nature is often described using two contradictory metaphors: the flowing river and the rigid gear. Like a river, time is unstoppable, carrying all mortal lives toward their eventual end with fluid indifference. Like a gear, however, his laws are precise, mechanical, and unbreakable. A minute is exactly sixty seconds, never more, never less. Sylaris does not barter, and he cannot be bribed to turn back his mechanism. He is the ultimate impartial observer, recording every event in the great cosmic ledger without judgment or emotion.
+The mosaics found in the Great Foundry of Camorr and the desert shrines of the Bronze Union portray Daesis as a figure of focused, youthful vigor.
 
-* **Appearance:** He is rarely shown as purely organic. He is often depicted as a tall, imposing figure whose skin is a fusion of polished bronze, marble, and visible clockwork mechanisms beneath a translucent surface.
-* **Attributes:** His face is stern and impassive, often resembling a classical statue. In place of eyes, he has glowing, swirling pools of golden sands or rapidly spinning watch faces. He possesses a beard that is not hair, but flowing streams of sand that dissolve into the aether.
-* **Attire:** He is often depicted wearing heavy armor embossed with constellations and timelines that seem to move. He is almost always holding a massive, ornate hourglass or leaning upon a staff topped with a wicked, swinging pendulum blade.
+* **Appearance**: He is depicted as a strong-jawed young man with short, practical brown hair. His expression is one of intense concentration, his eyes often described as having the clarity of polished bronze or the glow of a pilot light.
+
+* **Attributes**: He is almost always shown holding a Heavy Master-Hammer in one hand and a complex, glowing Holographic Schematic or a perfectly balanced gear in the other. He is often surrounded by an aura of floating tools and semi-autonomous mechanical constructs.
+
+* **Attire**: Unlike the ornate robes of his peers, Daesis wears functional, rugged attire. He is typically shown in a heavy leather smithing apron over a tunic of reinforced mail, stained with the soot of the forge and the oil of the machine. His forearms are often bare, revealing skin that occasionally shimmers with metallic veins.
 
 ## Worship and clergy
 
-Clerics of Sylaris, known as Keepers or Horologists, are obsessed with precision, history, and destiny. They are the world's premier historians, archivists, and clockmakers.
+Clerics of Daesis are known as Artificers, Foundry-Lords, or Gearsmen. They are an industrious order of engineers, architects, and alchemists who view the act of creation as the highest form of prayer. They are the primary consultants for the Concord's industrial projects and are frequently found overseeing the massive steam-engines of Camorr or the nomad-fleets of the Bronze Union.
 
-Worship is highly structured and punctual. Prayers must be offered at precise times of day down to the second. The maintenance of public clocks is considered a sacred duty. The holiest ritual is the "Vigil of the Turning Year," a twenty-four-hour silent meditation observing the passage of time without interference. Temples to Sylaris are instantly recognizable as massive clock towers that dominate city skylines. Inside, they are vast archives filled with the ticking of thousands of pendulums and the scratching of quills recording history.
+Worship of Daesis is loud, rhythmic, and productive. Rituals are centered around the "Work-Cycle," where the clanging of hammers and the hissing of steam serve as the choir. Devotion involves the "Trial of the Prototype," where a seeker must invent a new tool or improve upon an existing design to prove their worth. His temples are not quiet sanctuaries, but bustling workshops, roaring foundries, and high-tech laboratories. To Daesis, a clean workbench is a sign of a stagnant mind; his holiest sites are those where the air is thick with the scent of ozone and the ground vibrates with the pulse of machinery.

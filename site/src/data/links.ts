@@ -1,29 +1,34 @@
 export interface SidePanelLink {
     name: string,
     link: string,
-    tooltip: string,
+    tooltip?: string,
     icon?: string,
     sublinks?: SidePanelLink[];
 }
 
 export const MAIN_LINKS: SidePanelLink[] = [
     {
-        name: "Home",
+        name: "Introduction",
         link: "/",
-        tooltip: "Return to the home page",
+        tooltip: "Getting started in Theia",
         icon: "home"
     },
     {
         name: "Geography",
         link: "/geography",
-        tooltip: "Learn about the world of Theia",
         icon: "public",
         sublinks: [
             {
                 name: "World map",
                 link: "/world-map",
-                tooltip: "Explore the interactive world map",
+                tooltip: "Explore the world map",
                 icon: "map"
+            },
+             {
+                name: "Local maps",
+                link: "/local-maps",
+                tooltip: "Explore discovered local maps",
+                icon: "location_city"
             },
             {
                 name: "Nations",
@@ -31,23 +36,16 @@ export const MAIN_LINKS: SidePanelLink[] = [
                 tooltip: "Read about the main nation-states on Theia",
                 icon: "flag"
             },
-            {
-                name: "Climate",
-                link: "/info?content=climate",
-                tooltip: "Learn about the different climates on Theia",
-                icon: "air"
-            },
         ]
     },
     {
         name: "Society",
         link: "/society",
-        tooltip: "Learn about the people of Theia",
         icon: "people",
         sublinks: [
             {
                 name: "Races",
-                link: "/map",
+                link: "/info?content=races",
                 tooltip: "Read about Theia's various races & species",
                 icon: "cruelty_free"
             },
@@ -74,7 +72,6 @@ export const MAIN_LINKS: SidePanelLink[] = [
     {
         name: "History",
         link: "/history",
-        tooltip: "Learn about the people of Theia",
         icon: "auto_stories",
         sublinks: [
             {
@@ -101,24 +98,11 @@ export const MAIN_LINKS: SidePanelLink[] = [
                 tooltip: "On the state of the world today",
                 icon: "hourglass_full"
             },
-            {
-                name: "Magic",
-                link: "/info?content=magic",
-                tooltip: "Learn about Theia's magical systems",
-                icon: "auto_fix_high"
-            },
-            {
-                name: "Relics",
-                link: "/info?content=relics",
-                tooltip: "Read about powerful items lost & found",
-                icon: "hardware"
-            }
         ]
     },
     {
         name: "Meta",
         link: "/meta",
-        tooltip: "Learn about the people of Theia",
         icon: "videogame_asset",
         sublinks: [
             {
@@ -127,18 +111,6 @@ export const MAIN_LINKS: SidePanelLink[] = [
                 tooltip: "Introduction from the DM & house rules",
                 icon: "gavel"
             },
-            {
-                name: "Session recaps",
-                link: "/info?content=session-recaps",
-                tooltip: "Recaps on each session",
-                icon: "replay"
-            },
-            {
-                name: "Cookies & privacy",
-                link: "/info?content=privacy",
-                tooltip: "Details on cookies & privacy policy",
-                icon: "cookie"
-            }
         ]
     }
 ]

@@ -17,7 +17,7 @@ export const NavigationBar: FC<NavigationBarProps> = ({onModalOpen, onSidePanelT
                 </div>
             </Tooltip>
 
-            <Tooltip title='Search for content'>
+            {/* <Tooltip title='Search for content'>
                 <div className={styles.navItem}>
                     <Icon>search</Icon>
                 </div>
@@ -27,7 +27,7 @@ export const NavigationBar: FC<NavigationBarProps> = ({onModalOpen, onSidePanelT
                 <div className={styles.navItem} onClick={onModalOpen}>
                     <Icon>vpn_key</Icon>
                 </div>
-            </Tooltip>
+            </Tooltip> */}
         </div>
     );
 }

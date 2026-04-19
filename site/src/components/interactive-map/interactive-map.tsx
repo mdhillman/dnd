@@ -8,13 +8,11 @@ import { useNavigate } from "react-router-dom";
 interface InteractiveMapProps {
     /** The URL to the .svg file (e.g., /assets/map.svg) */
     mainMapUrl: string;
-    overlayMapUrl: string;
     onGroupClick?: (id: string) => void;
 }
 
 const InteractiveMap: React.FC<InteractiveMapProps> = ({
     mainMapUrl,
-    overlayMapUrl,
     onGroupClick,
 }) => {
     const navigate = useNavigate();
@@ -54,17 +52,15 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
             try {
                 setLoading(true);
                 // 1. Fetch both SVG files
-                const [mainResponse, overlayResponse] = await Promise.all([
+                const [mainResponse] = await Promise.all([
                     fetch(mainMapUrl),
-                    fetch(overlayMapUrl)
                 ]);
 
                 if (!mainResponse.ok) throw new Error("Failed to load main SVG file");
-                if (!overlayResponse.ok) throw new Error("Failed to load overlay SVG file");
+                //if (!overlayResponse.ok) throw new Error("Failed to load overlay SVG file");
 
-                const [mainSvgText, overlaySvgText] = await Promise.all([
+                const [mainSvgText] = await Promise.all([
                     mainResponse.text(),
-                    overlayResponse.text()
                 ]);
 
                 if (!isMounted || !containerRef.current) return;
@@ -93,19 +89,19 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
                     canvas.node.appendChild(mainSvgElement.firstChild);
                 }
 
-                // 5. Parse and inject the overlay map on top
-                const tempOverlayDiv = document.createElement('div');
-                tempOverlayDiv.classList.add(styles.overlayMap);
-                tempOverlayDiv.innerHTML = overlaySvgText;
-                const overlaySvgElement = tempOverlayDiv.querySelector('svg');
+                // // 5. Parse and inject the overlay map on top
+                // const tempOverlayDiv = document.createElement('div');
+                // tempOverlayDiv.classList.add(styles.overlayMap);
+                // tempOverlayDiv.innerHTML = overlaySvgText;
+                // const overlaySvgElement = tempOverlayDiv.querySelector('svg');
 
-                if (!overlaySvgElement) throw new Error("No SVG element found in overlay map");
-                overlaySvgElement.style.mixBlendMode = "overlay";
+                // if (!overlaySvgElement) throw new Error("No SVG element found in overlay map");
+                // overlaySvgElement.style.mixBlendMode = "overlay";
 
-                // Import all children from overlay SVG into canvas
-                while (overlaySvgElement.firstChild) {
-                    canvas.node.appendChild(overlaySvgElement.firstChild);
-                }
+                // // Import all children from overlay SVG into canvas
+                // while (overlaySvgElement.firstChild) {
+                //     canvas.node.appendChild(overlaySvgElement.firstChild);
+                // }
 
                 const svgElement = canvas.node;
 
@@ -205,27 +201,27 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
                     constrainPanning();
                 });
 
-                // 5. Attach Event Listener
-                canvas.on("click", (e: Event) => {
-                    const target = e.target as HTMLElement;
-                    const group = target.closest("g");
-                    if (group && group.id && onGroupClick) {
-                        onGroupClick(group.id);
-                    }
-                });
+                // // 5. Attach Event Listener
+                // canvas.on("click", (e: Event) => {
+                //     const target = e.target as HTMLElement;
+                //     const group = target.closest("g");
+                //     if (group && group.id && onGroupClick) {
+                //         onGroupClick(group.id);
+                //     }
+                // });
 
-                // 6. Attach mousemove listener to log closest <g> element id
-                canvas.on("mousemove", (e: Event) => {
-                    const target = e.target as HTMLElement;
-                    const group = target.closest("g");
-                    const adjustedId = group?.id.replaceAll('hotspot', 'highlight') ?? '';
+                // // 6. Attach mousemove listener to log closest <g> element id
+                // canvas.on("mousemove", (e: Event) => {
+                //     const target = e.target as HTMLElement;
+                //     const group = target.closest("g");
+                //     const adjustedId = group?.id.replaceAll('hotspot', 'highlight') ?? '';
 
-                    if (adjustedId.startsWith("highlight")) {
-                        setCurrentGroupId(adjustedId);
-                    } else if (adjustedId !== currentGroupId) {
-                        setCurrentGroupId(undefined);
-                    }
-                });
+                //     if (adjustedId.startsWith("highlight")) {
+                //         setCurrentGroupId(adjustedId);
+                //     } else if (adjustedId !== currentGroupId) {
+                //         setCurrentGroupId(undefined);
+                //     }
+                // });
 
                 setLoading(false);
             } catch (err) {
@@ -244,7 +240,7 @@ const InteractiveMap: React.FC<InteractiveMapProps> = ({
             isMounted = false;
             if (containerRef.current) containerRef.current.innerHTML = "";
         };
-    }, [mainMapUrl, overlayMapUrl, onGroupClick]);
+    }, [mainMapUrl, onGroupClick]);
 
     if (error) return <div style={{ color: "red" }}>Error: {error}</div>;
 

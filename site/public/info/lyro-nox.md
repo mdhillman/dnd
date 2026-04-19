@@ -11,7 +11,7 @@ table: {
 
 # Lyro Nox
 
-Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the XXX, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
+Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the Kindred Concord, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
 
 Lyro is famous for performing duets, trios, and even full choir pieces entirely solo, flawlessly switching between tempos and registers. Many listeners claim to recognize specific, distinctive tones—such as the "bellow of a seasoned Dwarven sailor", the "delicate sigh of an ancient Celestial", or the "high pitched wailing of a Banshee in flight". The fact each can come from a single person seems to defy all known acoustic physics. 
 

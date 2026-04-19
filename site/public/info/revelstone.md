@@ -1,6 +1,6 @@
 ---
 title: Revelstone
-header: great-council-chambers.jpg
+header: revelstone.png
 ---
 
 # Revelstone

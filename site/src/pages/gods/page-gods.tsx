@@ -52,6 +52,7 @@ const defaultTiles: ChromaItem[] = [
         image: "/images/kala.png",
         title: "Kala",
         subtitle: "The Unraveling",
+        url: "/info?content=kala",
         borderColor: "#556B2F",
         gradient: "linear-gradient(210deg, #556B2F, #000)",
     },
@@ -59,6 +60,7 @@ const defaultTiles: ChromaItem[] = [
         image: "/images/vitae.png",
         title: "Vitae",
         subtitle: "The Bloom",
+        url: "/info?content=vitae",
         borderColor: "#10B981",
         gradient: "linear-gradient(210deg, #10B981, #000)",
     },
@@ -66,31 +68,19 @@ const defaultTiles: ChromaItem[] = [
         image: "/images/nihilus.png",
         title: "Nihilus",
         subtitle: "The Silence",
+        url: "/info?content=nihilus",
         borderColor: "#7FFFD4",
         gradient: "linear-gradient(165deg, #7FFFD4, #000)",
     },
 ];
 
 const GodsPage: FC = () => {
-    const cookies = useContext(CookieContext).sort();
-    const showNinth = cookies.includes(KEY_THE_NINTH);
+    //const cookies = useContext(CookieContext).sort();
+    //const showNinth = cookies.includes(KEY_THE_NINTH);
     const headerImage = "/images/gods.png";
 
-    const godTiles = useMemo(() => {
-        return !showNinth
-            ? defaultTiles
-            : [
-                  ...defaultTiles,
-                  {
-                      image: "/images/ninth.png",
-                      title: "Ninth",
-                      subtitle: "The Lost",
-                      borderColor: "#2F4F4F",
-                      gradient: "linear-gradient(165deg, #2F4F4F, #000)",
-                  },
-              ];
-    }, [showNinth]);
-
+    const godTiles = defaultTiles;
+        
     const openImage = () => {
         if (!headerImage) return;
         window.open(headerImage, "_blank");
@@ -142,39 +132,11 @@ const GodsPage: FC = () => {
                     ignore one of the Eight is usually a geological event.
                 </p>
 
-                {showNinth && (
-                    <div className="revealed">
-                        <p style={{ fontWeight: "bold" }}>
-                            Your insight grants you this extra information:
-                        </p>
-                        <p>
-                            The universe governed only by these eight is a
-                            terrifying place. It is vast, full of stuff crashing
-                            together and exploding; all substance decays over
-                            time, while desperate life tries to survive it all
-                            before inevitability hitting succumbing to the great
-                            nothingness.
-                        </p>
-                        <p>It is a loud, violent, churning chaos.</p>
-                        <p>
-                            What is missing is The Ninth. The force that is
-                            currently hidden, yet dictates why Zareos burns at a
-                            specific temperature, why Oriana pulls at a specific
-                            mathematical rate, and why atoms form stable
-                            structures instead of just chaotic soup. The domain
-                            of Logic, Order, and Physical Law is currently
-                            vacant in the eyes of mortals, a deity absent for
-                            recorded history; only the gods know what has become
-                            of them.
-                        </p>
-                    </div>
-                )}
-
                 <div className={styles.chroma}>
                     <ChromaGrid
                         items={godTiles}
-                        columns={showNinth ? 3 : 4}
-                        rows={showNinth ? 3 : 2}
+                        columns={4}
+                        rows={2}
                         radius={150}
                     />
                 </div>

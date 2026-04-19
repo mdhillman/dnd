@@ -1,6 +1,6 @@
 ---
 title: 'Camorr'
-header: 'home.png'
+header: 'port-sinter.png'
 headerClass: 'smallHeader'
 ---
 
@@ -24,13 +24,13 @@ A heavily fortified and meticulously staffed stronghold on the northern border. 
 
 ### Woodhelven
 
-A world-famous architectural marvel situated on the border with Andelain. Woodhelven is a vertical, tree-top village built into the massive, magically-resilient timber of the border forests. During the War of the Unsolicited Re-Indexing, it served as a vital strategic holdout, as its shifting elevations made it a logistical nightmare for Mallorean surveyors.
+A world-famous architectural marvel situated on, and sprawling across, the border with Andelain. Woodhelven is a vertical, tree-top village built into the massive, magically-resilient timber of the border forests. During the War of the Unsolicited Re-Indexing, it served as a vital strategic holdout, as its shifting elevations made it a logistical nightmare for Mallorean surveyors.
 
 ## Notable Figures
 
 * **Lord Steffan Lyon**: The current High Lord and ruler of Camorr. A shrewd political veteran, he is the primary architect of Camorr’s modern industrial boom and a firm ally of Alistair Greatblood in the Great Council.
 
-* **Valerius "The Chaste" Lyon**: The High Lord’s young son, whose nickname is a masterpiece of Camorrian irony. Valerius is notoriously promiscuous and a permanent fixture in the scandal-sheets of the court, well-known to the younger male & female socialites of Lyonhall for his charm and his utter lack of interest in "chastity".
+* **Cygnus "The Chaste" Lyon**: The High Lord’s young son, whose nickname is a masterpiece of Camorrian irony. Cygnus is notoriously promiscuous and a permanent fixture in the scandal-sheets of the court, well-known to the younger male & female socialites of Lyonhall for his charm and his utter lack of interest in "chastity".
 
 * **Don Lorenzo Salvara**: The current Don of The Tridents, a powerful criminal mafia. While Lord Lyon handles the official trade, Salvara manages the illicit movement of goods across Camorr. The Tridents are rumored to have a reach that extends even into the Halls of Consensus, specializing in artifacts that T.H.U.M.P. would rather see destroyed.
 
@@ -50,4 +50,4 @@ The Camorrian culture is built on the concept of the "Honest Lie." In Camorr, it
 
 ## Local map
 
-To see a recent map of Camorr from the Camorrian Cartographer's Guild, click the link [here](/camorr-map).
+To see a recent map of Camorr from the Kindren Concord's own Cartographer's Guild, click the link [here](/camorr-map).

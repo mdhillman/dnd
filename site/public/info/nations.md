@@ -10,34 +10,44 @@ The world of Theia is a tapestry woven from countless sovereign territories, kin
 These varied states range from sprawling empires and secretive oligarchies to humble tribal lands and bustling mercantile republics, creating a vibrant, often contentious, mosaic of political life across the planet.
 
 ## Major inner nations
-* [The Kindred Concord](/info?content=the-kindred-concord): Formed roughly 250 years ago, after [The War of the Unsolicited Re-Indexing](info?content=war-of-unsolicited-reindexing), this alliance of predominantly human countries dominates the economical and technological sectors of Theia.
-  * [Revelstone](/info?content=revelstone): Designated as a city-state and ruled over by the Kindred Concord, this joint-seat of government acts as the de-facto capital of the allied nations.
-  * [Camorr](/info?content=camorr): Camorr is a sprawling coastal mercantile republic where the national pastime is high-stakes larceny and the most powerful people in the country are accountants with very sharp knives.
-  * [Andelain](/info?content=andelain): Known as the "Iron Breadbasket," Andelain is a rugged land of high mountains and even higher alcohol proof, populated by humans who view physical hardship as a competitive sport.
-  * [Doriath](/info?content=dortiah): A nation of high-minded scholars and low-tempered mages, Doriath is the Concord’s premier center for arcane research and the unintentional birthplace of several sentient clerical errors.
-* [The Bronze Union]()
-* [New Mallorea](/info?content=new-mallorea): Formed from the ruins of the Old Mallorean Empire, not much is known about the current state of this secretive nation of blue-skinned, logic-obsessed zealots.
-* [Zuaza]()
-* [The Lykos Quartet]():z
-  * [People's Republic of Lykos]()
-  * [Greater Lykosiaq]()
-  * [Lykosian People's Republic]()
-  * [Saint Lucien]()
+* **[The Kindred Concord](/info?content=the-kindred-concord)**: Formed roughly 250 years ago, after [The War of the Unsolicited Re-Indexing](/info?content=war-of-unsolicited-reindexing), this alliance of predominantly human countries dominates the economical and technological sectors of Theia.
+  * **[Revelstone](/info?content=revelstone)**: Designated as a city-state and ruled over by the Kindred Concord, this joint-seat of government acts as the de-facto capital of the allied nations.
+  * **[Camorr](/info?content=camorr)**: Camorr is a sprawling coastal mercantile republic where the national pastime is high-stakes larceny and the most powerful people in the country are accountants with very sharp knives.
+  * **[Andelain](/info?content=andelain)**:The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins.
+  * **[Doriath](/info?content=doriath)**: A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia.
+
+* **[New Mallorea](/info?content=new-mallorea)**: Formed from the ruins of the Old Mallorean Empire, not much is known about the current state of this secretive nation of blue-skinned, logic-obsessed zealots.
+
+* **The Bronze Union**: Riddled with desert and swamp-land, the nomadic Dwarves of The Bronze Union are generally hospitable, but prefer to keep to themselves.
+
+* **Zuaza**: Hidden up in the north of the continent, these approachable, yet devoted [Beldar](info?content=beldar) worshippers spend much of their time with their first love, the sea. 
+
+* **The Lykos Quartet**: The original founder of what was once a unified country (the great hero Lykos Lucien) would roll in his grave if he knew his legacy was one of petty bickering over misunderstood teachings.
+  * People's Republic of Lykos
+  * Greater Lykosia
+  * Lykosian People's Republic
+  * Saint Lucien
 
 ## Minor inner nations
-* [Commonwealth of Venthara]()
-* [Free Republic of Dunmar]()
-* [Abrax]()
-* [Mayene]()
-* [Maldros]()
-* [Grand Fenwick]()
+
+Scattered around the continent, these minor countries offer a variety of imports & exports to the global economy, but generally don't affect the socio-cultural scope of the world.
+
+* Commonwealth of Venthara
+* Free Republic of Dunmar
+* Abrax
+* Mayene
+* Maldros
+* Grand Fenwick
 
 ## Outer nations
-* [Federated States of Eskil]()
-* [Ghis]()
-* [The Golden Isles of Aurron]()
-* [The Silver Isles]()
-* [Cuzalapa]()
-* [Provinciá de Xaliscô]()
-* [Lordship of Solrathis]()
-* [Isla del Suenõs]()
+
+Varying in size, economic, and military power, these countries are more geographically isolated and generally don't interact with the countries of the continent. 
+
+* Federated States of Eskil
+* Ghis
+* The Golden Isles of Aurron
+* The Silver Isles
+* Cuzalapa
+* Provinciá de Xaliscô
+* Lordship of Solrathis
+* Isla del Suenõs

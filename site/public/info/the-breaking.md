@@ -1,6 +1,6 @@
 ---
 title: 'The Breaking'
-header: 'home.png'
+header: 'the-breaking.png'
 ---
 
 # The Breaking

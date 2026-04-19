@@ -7,6 +7,14 @@ header: great-council-chambers.jpg
 
 The Kindred Concord (often shortened to The Concord) is a sovereign geopolitical alliance of three predominantly human-governed nations of the lower continent: Camorr, Andelain, and Doriath. Established in 1170 NA, the alliance serves as the stabilizing force of the lower continent, dominating the global economy, maritime trade, and the advancement of steam-based technologies. The Concord is governed by the Great Council from the neutral city-state of Revelstone.
 
+## Member Nations
+
+[Camorr](info?content=camorr) (The Commercial Heart): The maritime and manufacturing powerhouse. Camorr provides the Concord with its naval strength and the lion’s share of its steam-engine production. It is a land of merchants, industrialists, and the "gentlemanly" criminal underworld.
+
+[Andelain](info?content=andelain) (The Arcane Preserve): The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins. It provides the Concord with its scholars, its food, and its most potent magical defenses.
+
+[Doriath](info?content=doriath) (The Ancient Shield): A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia. While often at odds with Camorr’s smoky industrialism, Doriath’s commitment to the "Old Oaths" makes them the alliance’s most loyal defenders.
+
 ## History
 
 The Concord was born from a twelve-year "geopolitical tantrum" thrown by the Old Mallorean Empire. Seeking to fix a "perceived lack of administrative uniformity" in the South-East, the Mallorean Emperor, Maximillian the Meticulous, launched an invasion to standardize the tax codes and burial rites of his neighbors.
@@ -26,14 +34,6 @@ The conflict reached its surreal climax when Mallorean Arch-Calculator Vane atte
 ### The Signing of the Accord (1170 NA)
 
 With their military literally set in stone, Mallorea retreated. The three victim nations (Camorr, Andelain, and Doriath) signed the Kindred Accord, vowing to maintain their shared independence and ensuring that no one would ever again attempt to "index" their sovereignty.
-
-## Member Nations
-
-Camorr (The Commercial Heart): The maritime and manufacturing powerhouse. Camorr provides the Concord with its naval strength and the lion’s share of its steam-engine production. It is a land of merchants, industrialists, and the "gentlemanly" criminal underworld.
-
-Andelain (The Arcane Preserve): The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins. It provides the Concord with its scholars, its food, and its most potent magical defenses.
-
-Doriath (The Ancient Shield): A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia. While often at odds with Camorr’s smoky industrialism, Doriath’s commitment to the "Old Oaths" makes them the alliance’s most loyal defenders.
 
 ## Governance and Influence
 

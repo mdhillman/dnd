@@ -14,6 +14,7 @@ import "./global.css";
 import HistoryPage from "./pages/history/page-history";
 import GodsPage from "./pages/gods/page-gods";
 import InteractiveMap from "./components/interactive-map/interactive-map";
+import { LocalMapsPage } from "./pages/local-maps/local-maps";
 
 // Check if the Buffer global is defined, if not, attach the polyfill
 if (typeof window !== "undefined" && typeof window.Buffer === "undefined") {
@@ -30,9 +31,9 @@ const materialDarkTheme = createTheme({
 // When visiting the root page, gates access if the cookie is not set
 const CookieGate: FC = () => {
     const cookies = useContext(CookieContext).sort();
-    if (!cookies.includes("accept-cookies")) {
-        return <LandingPage />;
-    }
+    // if (!cookies.includes("accept-cookies")) {
+    //     return <LandingPage />;
+    // }
 
     return (
         <WrapWithNavigation>
@@ -61,15 +62,23 @@ const SiteWrapper: FC = () => {
                         path="/world-map"
                         element={
                             <WrapWithNavigation>
-                                <InteractiveMap mainMapUrl="/images/world-map.svg" overlayMapUrl="/images/overlay-world-map.svg" />
+                                <InteractiveMap mainMapUrl="/images/world-map.svg" />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
+                        path="/camorr-map"
+                        element={
+                            <WrapWithNavigation>
+                                <InteractiveMap mainMapUrl="/images/camorr-map.svg" />
                             </WrapWithNavigation>
                         }
                     />
                       <Route
-                        path="/camorr-map"
+                        path="/local-maps"
                         element={
                             <WrapWithNavigation>
-                                <InteractiveMap mainMapUrl="/images/world-map.svg" overlayMapUrl="/images/camorr-map.svg" />
+                                <LocalMapsPage />
                             </WrapWithNavigation>
                         }
                     />

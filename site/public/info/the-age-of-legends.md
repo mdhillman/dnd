@@ -1,6 +1,6 @@
 ---
 title: 'The Age of Legends'
-header: 'home.png'
+header: 'the-age-of-legends.png'
 ---
 
 # The Age of Legends

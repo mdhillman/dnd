@@ -12,6 +12,7 @@
     --highlight03: darkmagenta;
 
     --text: #e1e1e1;
+    --text-darker: color-mix(in hsl, var(--text) 50%, var(--highlight01) 50%);
 
     --dark-primary: #121212;
     --dark-secondary: color-mix(in hsl, var(--dark-primary) 92%, white 8%);

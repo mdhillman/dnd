@@ -34,6 +34,22 @@
     background-color: var(--background01);
 }
 
+
+.groupItem {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: var(--spacingL);
+    margin-top: var(--spacingS);
+    color: var(--text-darker);
+    background-color: var(--background03);
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 @media all and (max-height: 850px) {
     .linkItem {
         height: 0.85rem;

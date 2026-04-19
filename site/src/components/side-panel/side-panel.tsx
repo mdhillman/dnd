@@ -28,7 +28,8 @@ const useBuildLinks = (links: SidePanelLink[]): ReactNode[] => {
     const results: ReactNode[] = [];
     const navigate = useNavigate();
 
-    const routeChange = (path: string) => {
+    const routeChange = (path: string, hasChildren: boolean) => {
+        if(hasChildren) return;
         navigate(path);
     }
 
@@ -48,9 +49,11 @@ const useBuildLinks = (links: SidePanelLink[]): ReactNode[] => {
         const iconName = link.icon ?? "star";
         const collapserIcon = collapsedNodes.includes(link.name) ? "arrow_drop_down" : "arrow_drop_up";
 
+        const hasChildren = link.sublinks && link.sublinks.length > 0;
+
         results.push(
             <Tooltip title={link.tooltip} placement={"right"} key={link.name} arrow>
-                <div style={inlineStyle} className={styles.linkItem} onClick={() => routeChange(link.link)}>
+                <div style={inlineStyle} className={!hasChildren ? styles.linkItem : styles.groupItem} onClick={() => routeChange(link.link, !!hasChildren)}>
                     <Icon className={styles.linkIcon}>{iconName}</Icon>
                     <span>{link.name}</span>
 
