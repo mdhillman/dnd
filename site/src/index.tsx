@@ -62,7 +62,7 @@ const SiteWrapper: FC = () => {
                         path="/world-map"
                         element={
                             <WrapWithNavigation>
-                                <InteractiveMap mainMapUrl="/images/world-map.svg" />
+                                <InteractiveMap mainMapUrl="/dnd/images/world-map.svg" />
                             </WrapWithNavigation>
                         }
                     />
@@ -70,7 +70,7 @@ const SiteWrapper: FC = () => {
                         path="/camorr-map"
                         element={
                             <WrapWithNavigation>
-                                <InteractiveMap mainMapUrl="/images/camorr-map.svg" />
+                                <InteractiveMap mainMapUrl="/dnd/images/camorr-map.svg" />
                             </WrapWithNavigation>
                         }
                     />
@@ -119,7 +119,7 @@ const container = document.querySelector("#root");
 if (container != null) {
     const root = ReactDOM.createRoot(container);
     root.render(
-        <BrowserRouter>
+        <BrowserRouter basename="/dnd">
             <SiteWrapper />
         </BrowserRouter>,
     );

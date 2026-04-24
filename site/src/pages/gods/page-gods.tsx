@@ -9,7 +9,7 @@ import { KEY_THE_NINTH } from "../../data/keys";
 
 const defaultTiles: ChromaItem[] = [
     {
-        image: "/images/zareos.png",
+        image: "/dnd/images/zareos.png",
         title: "Zareos",
         subtitle: "The Catalyst",
         url: "/info?content=zareos",
@@ -17,7 +17,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(195deg, #EF4444, #000)",
     },
     {
-        image: "/images/oriana.png",
+        image: "/dnd/images/oriana.png",
         title: "Oriana",
         subtitle: "The Bind",
         url: "/info?content=oriana",
@@ -25,7 +25,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(225deg, #8B5CF6, #000)",
     },
     {
-        image: "/images/beldar.png",
+        image: "/dnd/images/beldar.png",
         title: "Beldar",
         subtitle: "The Expanse",
         url: "/info?content=beldar",
@@ -33,7 +33,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(135deg, #06B6D4, #000)",
     },
     {
-        image: "/images/sylaris.png",
+        image: "/dnd/images/sylaris.png",
         title: "Sylaris",
         subtitle: "The Current",
         url: "/info?content=sylaris",
@@ -41,7 +41,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(165deg, #B8860B, #000)",
     },
     {
-        image: "/images/daesis.png",
+        image: "/dnd/images/daesis.png",
         title: "Daesis",
         subtitle: "The Substance",
         url: "/info?content=daesis",
@@ -49,7 +49,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(165deg, #F59E0B, #000)",
     },
     {
-        image: "/images/kala.png",
+        image: "/dnd/images/kala.png",
         title: "Kala",
         subtitle: "The Unraveling",
         url: "/info?content=kala",
@@ -57,7 +57,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(210deg, #556B2F, #000)",
     },
     {
-        image: "/images/vitae.png",
+        image: "/dnd/images/vitae.png",
         title: "Vitae",
         subtitle: "The Bloom",
         url: "/info?content=vitae",
@@ -65,7 +65,7 @@ const defaultTiles: ChromaItem[] = [
         gradient: "linear-gradient(210deg, #10B981, #000)",
     },
     {
-        image: "/images/nihilus.png",
+        image: "/dnd/images/nihilus.png",
         title: "Nihilus",
         subtitle: "The Silence",
         url: "/info?content=nihilus",
@@ -77,7 +77,7 @@ const defaultTiles: ChromaItem[] = [
 const GodsPage: FC = () => {
     //const cookies = useContext(CookieContext).sort();
     //const showNinth = cookies.includes(KEY_THE_NINTH);
-    const headerImage = "/images/gods.png";
+    const headerImage = "/dnd/images/gods.png";
 
     const godTiles = defaultTiles;
         

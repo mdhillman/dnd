@@ -51,13 +51,13 @@ const InfoPanel: FC = () => {
     const [params] = useSearchParams();
 
     const filename = params.get("content") ?? 'home';
-    const headerImage = mdTags?.header ? `/images/${mdTags.header}` : null;
+    const headerImage = mdTags?.header ? `/dnd/images/${mdTags.header}` : null;
 
     useEffect(() => {
         setLoading(true);
 
         const loadMarkdown = async () => {
-            const response = await fetch(`/info/${filename}.md`);
+            const response = await fetch(`https://raw.githubusercontent.com/mdhillman/dnd/refs/heads/initial-dev/site/public/info/${filename}.md`);
             if(response.ok) {
                 let {data, content} = matter(await response.text())
 
@@ -78,8 +78,6 @@ const InfoPanel: FC = () => {
         
         loadMarkdown();
     }, [filename, cookies]);
-
-    
 
     // Loading element
     if(loading) {

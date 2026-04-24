@@ -2,7 +2,7 @@ import Tooltip from '@mui/material/Tooltip';
 import styles from './local-maps.module.css';
 
 export const LocalMapsPage = () => {
-    const headerImage = "/images/home.png";
+    const headerImage = "/dnd/images/home.png";
 
     const openImage = () => {
         if (!headerImage) return;
