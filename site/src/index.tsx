@@ -1,6 +1,6 @@
 import { FC, useContext, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import MapPage from "./pages/map/page-map";
 import InfoPanel from "./components/info-panel/info-panel";
 import { Buffer } from "buffer";
@@ -74,7 +74,7 @@ const SiteWrapper: FC = () => {
                             </WrapWithNavigation>
                         }
                     />
-                      <Route
+                    <Route
                         path="/local-maps"
                         element={
                             <WrapWithNavigation>
@@ -119,8 +119,8 @@ const container = document.querySelector("#root");
 if (container != null) {
     const root = ReactDOM.createRoot(container);
     root.render(
-        <BrowserRouter basename="/dnd">
+        <HashRouter>
             <SiteWrapper />
-        </BrowserRouter>,
+        </HashRouter>,
     );
 }
