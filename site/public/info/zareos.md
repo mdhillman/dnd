@@ -15,7 +15,7 @@ In the cosmology of the Eight, the universe began as a cold, static void of spac
 
 Zareos is described as volatile, impatient, and overwhelmingly intense. He possesses a hatred for stagnation. To Zareos, a mountain is an offense because it sits still; he prefers the volcano because it acts. He is not inherently destructive, but his demand for constant transformation often looks like destruction to mortals. He does not speak in riddles but in commands, demanding action, reaction, and conversion of state.
 
-While early primitive cultures depicted Zareos as a formless pillar of fire or a shapeless cloud of lightning, the modern orthodox church (and particularly the famous stained-glass windows of the [High Sanctum]()) depicts him as a fierce warrior.
+While early primitive cultures depicted Zareos as a formless pillar of fire or a shapeless cloud of lightning, the modern orthodox church (and particularly the famous stained-glass windows of the High Sanctum) depicts him as a fierce warrior.
 
 * **Appearance:** He is shown with a voluminous, wild beard that flows like flame, representing the generation of energy through fire.
 * **Attire:** He is clad in a suit of blindingly bright armor, sometimes interpreted as pristine, glowing plate mail, other times as a sharp, structured tunic that mimics the fashion of high nobility, symbolizing the purity of white light.

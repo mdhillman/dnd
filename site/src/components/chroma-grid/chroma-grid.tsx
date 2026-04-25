@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import "./chroma-grid.css";
+import { useNavigate } from "react-router-dom";
 
 export interface ChromaItem {
     image: string;
@@ -36,6 +37,8 @@ export const ChromaGrid: React.FC<ChromaGridProps> = ({
     fadeOut = 0.6,
     ease = "power3.out",
 }) => {
+    const navigate = useNavigate();
+
     const rootRef = useRef<HTMLDivElement>(null);
     const fadeRef = useRef<HTMLDivElement>(null);
     const setX = useRef<SetterFn | null>(null);
@@ -88,7 +91,7 @@ export const ChromaGrid: React.FC<ChromaGridProps> = ({
 
     const handleCardClick = (url?: string) => {
         if (url) {
-            window.open(url, "_blank", "noopener,noreferrer");
+            navigate(url);
         }
     };
 
