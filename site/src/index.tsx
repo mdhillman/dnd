@@ -56,7 +56,14 @@ const SiteWrapper: FC = () => {
         <CookieContext.Provider value={cookies}>
             <ThemeProvider theme={materialDarkTheme}>
                 <Routes>
-                    <Route path="/" element={<CookieGate />} />
+                    <Route
+                        path=""
+                        element={
+                            <WrapWithNavigation>
+                                <InfoPanel />
+                            </WrapWithNavigation>
+                        }
+                    />
                     <Route path="/landing" element={<LandingPage />} />
                     <Route
                         path="/world-map"
@@ -119,8 +126,8 @@ const container = document.querySelector("#root");
 if (container != null) {
     const root = ReactDOM.createRoot(container);
     root.render(
-        <HashRouter>
+        <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
             <SiteWrapper />
-        </HashRouter>,
+        </BrowserRouter>
     );
 }

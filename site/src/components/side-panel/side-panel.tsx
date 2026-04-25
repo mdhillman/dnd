@@ -30,6 +30,7 @@ const useBuildLinks = (links: SidePanelLink[]): ReactNode[] => {
 
     const routeChange = (path: string, hasChildren: boolean) => {
         if(hasChildren) return;
+        console.log("NAVIGATING TO: " + path);
         navigate(path);
     }
 

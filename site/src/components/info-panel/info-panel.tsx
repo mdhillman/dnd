@@ -1,13 +1,13 @@
 import { FC, useEffect, useState, useContext } from "react";
 import matter from 'gray-matter';
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { Components } from "react-markdown";
 import { Button, Tooltip } from "@mui/material";
 import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import { InfoTable, InfoTableProps } from "./info-table";
 import { removeCookie } from "../../cookies";
 import { CookieContext } from "../../contexts";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 import styles from './info-panel.module.css';
 
@@ -98,6 +98,12 @@ const InfoPanel: FC = () => {
         window.open(headerImage, '_blank');
     };
 
+    const components: Components = {
+        a: ({ href, children }) => {
+            return <Link to={href?.toString() ?? '/'}>{children}</Link>;
+        }
+    };
+
     return (
         <div className={styles.container}>
             {headerImage && (
@@ -108,7 +114,12 @@ const InfoPanel: FC = () => {
             
             <div className={styles.content}>
                 <InfoTable {...mdTags.table}/>
-                <ReactMarkdown remarkPlugins={[[remarkGfm, { singleTilde: false }], [remarkToc]]}>{mdContent}</ReactMarkdown>
+                <ReactMarkdown
+                    components={components}
+                    remarkPlugins={[[remarkGfm, { singleTilde: false }], [remarkToc]]}
+                    >
+                        {mdContent}
+                    </ReactMarkdown>
 
                 {filename === 'privacy' && (
                     <div className={styles.buttonContainer}>
