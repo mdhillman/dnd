@@ -13,7 +13,7 @@ table: {
 
 Commonly called The Infinite Canvas or The Silent Void, Beldar is the literal distance between atoms and the yawning gulfs between galaxies. He is a passive, boundless entity that defines "where" things exist. Unlike the active forces of energy or gravity, Beldar does not act upon matter directly; rather, he provides the medium in which they interact. He is cold, silent, and unimaginably vast, seeking only to widen eternally, pushing the boundaries of existence outward into absolute nothingness.
 
-In the cosmology of the Eight, Beldar is the prerequisite for existence. Before Ignis could burn or [Daesis](info?content=daesis) could take form, there had to be a place for them to be. Beldar is that place. He is the emptiness that allows things to exist separate from one another. Without Beldar, the universe would be a single, undifferentiated point of infinite density - the ultimate goal of his cosmic rival, Oriana.
+In the cosmology of the Eight, Beldar is the prerequisite for existence. Before Ignis could burn or [Daesis](/info?content=daesis) could take form, there had to be a place for them to be. Beldar is that place. He is the emptiness that allows things to exist separate from one another. Without Beldar, the universe would be a single, undifferentiated point of infinite density - the ultimate goal of his cosmic rival, Oriana.
 
 Beldar is described as a passive but relentless force. He is not aggressive, but he is expansive. His fundamental nature is to grow, stretching the distances between galaxies and widening the void. He is the silence between musical notes and the cold vacuum between stars. Philosophers argue that Beldar does not "do" anything, yet without him, nothing else could be done.
 

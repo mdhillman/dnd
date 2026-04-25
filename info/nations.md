@@ -20,7 +20,7 @@ These varied states range from sprawling empires and secretive oligarchies to hu
 
 * **The Bronze Union**: Riddled with desert and swamp-land, the nomadic Dwarves of The Bronze Union are generally hospitable, but prefer to keep to themselves.
 
-* **Zuaza**: Hidden up in the north of the continent, these approachable, yet devoted [Beldar](info?content=beldar) worshippers spend much of their time with their first love, the sea. 
+* **Zuaza**: Hidden up in the north of the continent, these approachable, yet devoted [Beldar](/info?content=beldar) worshippers spend much of their time with their first love, the sea. 
 
 * **The Lykos Quartet**: The original founder of what was once a unified country (the great hero Lykos Lucien) would roll in his grave if he knew his legacy was one of petty bickering over misunderstood teachings.
   * People's Republic of Lykos

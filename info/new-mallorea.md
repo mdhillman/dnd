@@ -6,7 +6,7 @@ headerClass: 'smallHeader'
 
 # New Mallorea
 
-New Mallorea (officially the Restored Dominion of Mallorea) is the isolated, rival power to the [Kindred Concord](info?content=the-kindred-concord). Following its devastating defeat in the [Re-Indexing War](info?content=war-of-unsolicited-reindexing) the remnants of the old empire retreated behind the impenetrable borders of the then-newly imposed Demilitarized Zone (DMZ). Shielded from the world by a ring of "No Man's Land" and a self-imposed vow of indifference with the outside world, New Mallorea has become a "black box" nation. It rejects all diplomacy, bars all visitors, and exists in a state of perpetual, cold defiance against the modern world.
+New Mallorea (officially the Restored Dominion of Mallorea) is the isolated, rival power to the [Kindred Concord](/info?content=the-kindred-concord). Following its devastating defeat in the [Re-Indexing War](/info?content=war-of-unsolicited-reindexing) the remnants of the old empire retreated behind the impenetrable borders of the then-newly imposed Demilitarized Zone (DMZ). Shielded from the world by a ring of "No Man's Land" and a self-imposed vow of indifference with the outside world, New Mallorea has become a "black box" nation. It rejects all diplomacy, bars all visitors, and exists in a state of perpetual, cold defiance against the modern world.
 
 ## Geography and the DMZ
 

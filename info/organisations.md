@@ -39,7 +39,7 @@ They have an incredibly popular side-hustle: Ghost-writing anonymous memoirs for
 
 ### T.H.U.M.P
 
-[T.H.U.M.P](info?content=thump), Tactical Hex Unit & Magical Policing (though often colloquially referred to as "The Heavies", "The Door Knockers", or "Oh Gods No, Not Them"), is a specialized, high-impact sub-division of municipal law enforcement forces in major metropolitan centers across Theia, most notably cities with high magical activity like [Revelstone](info?content=revelstone) or Lyonhall. The organisation is lead by [Commander Thaddeus T Thorne](/info?content=thaddeus-thorne), who is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
+[T.H.U.M.P](/info?content=thump), Tactical Hex Unit & Magical Policing (though often colloquially referred to as "The Heavies", "The Door Knockers", or "Oh Gods No, Not Them"), is a specialized, high-impact sub-division of municipal law enforcement forces in major metropolitan centers across Theia, most notably cities with high magical activity like [Revelstone](/info?content=revelstone) or Lyonhall. The organisation is lead by [Commander Thaddeus T Thorne](/info?content=thaddeus-thorne), who is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
 
 ### The Blood-Blades
 

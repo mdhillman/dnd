@@ -5,7 +5,7 @@ header: races.png
 
 # Races of Theia
 
-Following the cataclysmic events of [The Breaking](info?content=the-breaking) thousands of years ago, the various races of the world were severed from their ancestral planes. What remains is a diverse tapestry of peoples who have adapted to the unique pressures of the New Age, from the industrial smog of Camorr to the sterile logic-halls of New Mallorea.
+Following the cataclysmic events of [The Breaking](/info?content=the-breaking) thousands of years ago, the various races of the world were severed from their ancestral planes. What remains is a diverse tapestry of peoples who have adapted to the unique pressures of the New Age, from the industrial smog of Camorr to the sterile logic-halls of New Mallorea.
 
 ## The Common Races
 

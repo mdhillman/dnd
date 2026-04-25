@@ -34,9 +34,9 @@ A world-famous architectural marvel situated on, and sprawling across, the borde
 
 * **Don Lorenzo Salvara**: The current Don of The Tridents, a powerful criminal mafia. While Lord Lyon handles the official trade, Salvara manages the illicit movement of goods across Camorr. The Tridents are rumored to have a reach that extends even into the Halls of Consensus, specializing in artifacts that T.H.U.M.P. would rather see destroyed.
 
-* **General "Iron-Side" Kaelen**: A veteran of the [War of the Unsolicited Re-Indexing](info?content=war-of-unsolicted-reindexing), Kaelen is the man credited with the successful defense of Fort Kandor.
+* **General "Iron-Side" Kaelen**: A veteran of the [War of the Unsolicited Re-Indexing](/info?content=war-of-unsolicted-reindexing), Kaelen is the man credited with the successful defense of Fort Kandor.
 
-* **Arch-Alchemist Vespera Thorne**: The estranged elder sister of [Commander Thaddeus Thorne](info?content=thaddeus-thorne), Vespera is considered the most brilliant (and dangerous) mind in the field of Steam-Arcana.
+* **Arch-Alchemist Vespera Thorne**: The estranged elder sister of [Commander Thaddeus Thorne](/info?content=thaddeus-thorne), Vespera is considered the most brilliant (and dangerous) mind in the field of Steam-Arcana.
 
 ## Economy and Culture
 

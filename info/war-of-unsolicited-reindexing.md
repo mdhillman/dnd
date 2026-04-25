@@ -23,7 +23,7 @@ As the southern neighbor to Mallorea, Camorr bore the initial brunt of the "Admi
 
 ### Andelain: The Arcane Archives
 
-Andelain utilized its own specialized arcane traditions to resist. They specialized in "Bureaucratic Counter-Spelling," turning Mallorean maps into sentient, biting creatures and enchanting the invader's inkwells to only produce a garish pink ink and their quills to only write insults regarding the Emperor’s mother. They famously held the sprawling border-forest and its vertical stronghold, the tree-top village of [Woodhelven](info?content=woodhelven), for six months. The Mallorean Census Legions found it mathematically impossible to calculate property taxes for residences that moved three inches to the left every time the wind blew, and the defense was allegedly fueled by nothing but spite, a tactical height advantage, and a particularly potent batch of potato moonshine.
+Andelain utilized its own specialized arcane traditions to resist. They specialized in "Bureaucratic Counter-Spelling," turning Mallorean maps into sentient, biting creatures and enchanting the invader's inkwells to only produce a garish pink ink and their quills to only write insults regarding the Emperor’s mother. They famously held the sprawling border-forest and its vertical stronghold, the tree-top village of [Woodhelven](/info?content=woodhelven), for six months. The Mallorean Census Legions found it mathematically impossible to calculate property taxes for residences that moved three inches to the left every time the wind blew, and the defense was allegedly fueled by nothing but spite, a tactical height advantage, and a particularly potent batch of potato moonshine.
 
 ### Doriath: The Oath Keepers
 
@@ -57,4 +57,4 @@ More recently, in Andelain, suspected Mallorean agents have triggered "fermentat
 
 Radicalized Mallorean specialists have also been known to act as magical suicide-bombers. They infiltrate Revelstone and intentionally "fail" cantrips to trigger detonations, leaving behind perfectly organized paperwork detailing the "regulatory failures" of the buildings they destroy.
 
-> "Not only do they want to kill us; they want to prove that our lives are statistically irrelevant and poorly managed." - [Commander Thaddeus T. Thorne](info?content=thaddeus-thorne).
+> "Not only do they want to kill us; they want to prove that our lives are statistically irrelevant and poorly managed." - [Commander Thaddeus T. Thorne](/info?content=thaddeus-thorne).
