@@ -15,7 +15,7 @@ Often called The Cosmic Anchor or The Inevitable Embrace, Oriana represents the 
 
 In the cosmology of the Octad, Oriana is the glue that holds the material universe together. Without her, the energy of Zareos would scatter matter across infinite space into a meaningless, dilute soup. It is Oriana's immense, crushing will that forces atoms to cohere, forming the building blocks of reality, and that pulls celestial bodies into their stable orbits. She is not a benevolent guardian, but a force of pure, dispassionate necessity. Her ultimate desire, if left unchecked, would be to pull all of existence into a single, infinitesimally small and dense singularity, ending the universe in a "Great Crunch."
 
-The stained-glass depictions in the [High Sanctum]() show Oriana as a majestic and imposing female figure of immense power.
+The stained-glass depictions in the High Sanctum show Oriana as a majestic and imposing female figure of immense power.
 
 * **Appearance:** Her most striking feature is her hair, which is a flowing, cosmic vortex of deep blues, purples, and indigo glass segments, swirling with the patterns of galaxies, nebulae, and collapsing stars. Her eyes glow with a cold, detached violet light.
 * **Attire:** She is clad in heavy, geometric armor made of dark iron, obsidian, and faceted deep blue glass shards, giving her a sense of immense, unyielding weight and solidity.
