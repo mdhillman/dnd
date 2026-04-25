@@ -5,6 +5,11 @@ header: 'home.png'
 
 # Welcome to Theia!
 
+[Link 01](/camorr-map)
+[Link 02](/dnd/camorr-map)
+[Link 03](/info?content=kala)
+[Link 04](/dnd/info?content=kala)
+
 Greetings, brave adventurers, and welcome to your new D&D home for the foreseeable future! This lore wiki is your definitive, though frequently unreliable, guide to the world of Theia (_thee-uh_). This campaign is a journey into the dark, fantastical, and down-write degenerate mind of your DM, me! For more details on how I plan to run the game, including what edition we'll be using, what sources we're pulling from, house rules and thoughts on play-styles, see the [From the DM](/info?content=rules-of-conduct) page.
 
 ## Theia in a nutshell
