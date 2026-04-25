@@ -6,7 +6,7 @@ headerClass: 'smallHeader'
 
 # Andelain
 
-Andelain (officially the Grand Preserve of Andelain) is the mystical and agricultural heart of the Kindred Concord. Known for its sprawling ancient forests, floating "Skylands" and proximity to many ruins from the [Age of Legends](info?content=the-age-of-legends), Andelain provides the alliance with its food, its magical scholars, and its most potent arcane defenses. While Camorr builds the engines of the New Age, Andelain ensures that the magic fueling them doesn’t unravel the fabric of reality.
+Andelain (officially the Grand Preserve of Andelain) is the mystical and agricultural heart of the Kindred Concord. Known for its sprawling ancient forests, floating "Skylands" and proximity to many ruins from the [Age of Legends](/info?content=the-age-of-legends), Andelain provides the alliance with its food, its magical scholars, and its most potent arcane defenses. While Camorr builds the engines of the New Age, Andelain ensures that the magic fueling them doesn’t unravel the fabric of reality.
 
 ## Geography and Major Settlements
 

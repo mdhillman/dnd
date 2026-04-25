@@ -93,7 +93,7 @@ Society in Revelstone is a study in contrasts. The elites of high society spend 
 
 The city is a magnet for celebrities, including:
 
-* [Lyro Nox](info?content=lyro-nox): The undisputed "The Bard of Whispers" Lyro’s vocal range is so vast it has been known to accidentally shatter Resonant Glass and trigger the Spire’s glow.
+* [Lyro Nox](/info?content=lyro-nox): The undisputed "The Bard of Whispers" Lyro’s vocal range is so vast it has been known to accidentally shatter Resonant Glass and trigger the Spire’s glow.
 * Master Artificer Bram: A man who famously replaced his own left arm with a steam-powered clock, claiming he "never liked the original's lack of built-in timing."
 * Madame Valois: The most sought-after dressmaker in the Concord, rumored to weave "Anti-Memetic" thread into her garments so that her clients can attend scandals without being remembered by the witnesses.
 * "Steam-Whistle" Sally: A legendary rail-pilot and engineer who famously drove a prototype locomotive through a Realmatic Flux storm to deliver medicine to a quarantined village in Doriath.

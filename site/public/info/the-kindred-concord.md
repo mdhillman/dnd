@@ -9,11 +9,11 @@ The Kindred Concord (often shortened to The Concord) is a sovereign geopolitical
 
 ## Member Nations
 
-[Camorr](info?content=camorr) (The Commercial Heart): The maritime and manufacturing powerhouse. Camorr provides the Concord with its naval strength and the lion’s share of its steam-engine production. It is a land of merchants, industrialists, and the "gentlemanly" criminal underworld.
+[Camorr](/info?content=camorr) (The Commercial Heart): The maritime and manufacturing powerhouse. Camorr provides the Concord with its naval strength and the lion’s share of its steam-engine production. It is a land of merchants, industrialists, and the "gentlemanly" criminal underworld.
 
-[Andelain](info?content=andelain) (The Arcane Preserve): The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins. It provides the Concord with its scholars, its food, and its most potent magical defenses.
+[Andelain](/info?content=andelain) (The Arcane Preserve): The mystical and agricultural backbone. Andelain manages the delicate balance of the Realmatic Flux and serves as the primary site for the study of Age of Legends ruins. It provides the Concord with its scholars, its food, and its most potent magical defenses.
 
-[Doriath](info?content=doriath) (The Ancient Shield): A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia. While often at odds with Camorr’s smoky industrialism, Doriath’s commitment to the "Old Oaths" makes them the alliance’s most loyal defenders.
+[Doriath](/info?content=doriath) (The Ancient Shield): A tradition-bound woodland kingdom. Doriath maintains the alliance's land borders and provides the most elite scouts and rangers to the Revelstone Militia. While often at odds with Camorr’s smoky industrialism, Doriath’s commitment to the "Old Oaths" makes them the alliance’s most loyal defenders.
 
 ## History
 

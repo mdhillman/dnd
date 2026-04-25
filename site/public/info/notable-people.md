@@ -29,9 +29,9 @@ Behind every grand movement, industrial revolution, and shadow organization is a
 
 * **"Glitter-Glint" Jinx**: A Kobold actor who has become a global sensation. Jinx is famous for her high-energy dramatic performances that are known to bring tears to the hardest of hearts. She is the face and spokesperson of the rising "Magic-Chic" fashion.
 
-* **[Lyro Nox](info?content=lyro-nox)**: Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the Kindred Concord, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
+* **[Lyro Nox](/info?content=lyro-nox)**: Lyro Nox is widely regarded as the most gifted and popular Bard & performer of the current age, possessing a vocal range and tonal versatility deemed physically impossible by musical scholars. Lyro’s performances draw unparalleled crowds across the Kindred Concord, with critics noting the music often evokes intense, primal emotions that transcend mere entertainment.
 
-* **[Thaddeus Thorne](info?content=thaddeus-thorne)**: Thaddeus Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers. Known for his imposing physical presence, profound cynicism regarding the arcane arts, and a near-supernatural ability to ignore magical effects through sheer stubbornness, Thorne is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
+* **[Thaddeus Thorne](/info?content=thaddeus-thorne)**: Thaddeus Thorne is the serving Commander of the [Tactical Hex Unit & Magical Policing (T.H.U.M.P)](/info?content=thump) organisation, a specialized division of city law enforcement tasked with high-risk arcane containment in major Theian metropolitan centers. Known for his imposing physical presence, profound cynicism regarding the arcane arts, and a near-supernatural ability to ignore magical effects through sheer stubbornness, Thorne is widely credited with codifying the modern doctrine of "Percussive Counterspelling".
 
 ## Notorious Criminals
 
@@ -39,7 +39,7 @@ Behind every grand movement, industrial revolution, and shadow organization is a
 
 * **Black-Eyed Beatrice**: The former leader of a sky-pirate fleet that preyed on Mallorean supply lines. She was known for her "Kala-Kissed" luck, surviving three separate shipwrecks before being brought down by a coordinated strike from the Aegis Blood-Blade. She was not executed, but "re-indexed." She now works as a highly-efficient (and deeply miserable) logistics clerk in the Halls of Consensus.
 
-* **[Krell & Bane](info?content=krell-and-bane)**: Barnaby Krell (Human, Necromancer) and Sylvania Bane (High-Elf, Sorcerer) were a couple defined by their volatile, passionate, and extremely profitable love of chaos. They tore through the northern territories for over a decade, treating every treasury and bank as a stage for their unique brand of magical anarchy.
+* **[Krell & Bane](/info?content=krell-and-bane)**: Barnaby Krell (Human, Necromancer) and Sylvania Bane (High-Elf, Sorcerer) were a couple defined by their volatile, passionate, and extremely profitable love of chaos. They tore through the northern territories for over a decade, treating every treasury and bank as a stage for their unique brand of magical anarchy.
 
 ## Legendary Heroes
 
