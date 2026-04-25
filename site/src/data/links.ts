@@ -24,12 +24,6 @@ export const MAIN_LINKS: SidePanelLink[] = [
                 tooltip: "Explore the world map",
                 icon: "map"
             },
-               {
-                name: "Camorr map",
-                link: "/camorr-map",
-                tooltip: "Explore the world map",
-                icon: "map"
-            },
              {
                 name: "Local maps",
                 link: "/local-maps",

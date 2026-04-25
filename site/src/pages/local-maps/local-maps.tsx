@@ -38,11 +38,7 @@ export const LocalMapsPage = () => {
                     from professional Cartographers in nation capitals, and may cost a tidy sum to acquire.
                 </p>
 
-                <strong><a href="/dnd/camorr-map">Camorr</a>: </strong><br/>
-                <strong><a href="/camorr-map">Camorr</a>: </strong><br/>
-                <Link to="/camorr-map">LINK</Link><br/>
-                <Link to="/dnd/camorr-map">DND LINK</Link><br/>
-
+                <Link className={styles.link} to="/camorr-map">Camorr</Link>:<br/>
                 <span>
                     Produced by the Kindred Concord's own cartographical stewards 
                     at the Halls of Consensus in Revelstone, this map covers the 

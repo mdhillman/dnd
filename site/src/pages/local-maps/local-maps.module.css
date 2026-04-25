@@ -34,3 +34,7 @@
     object-fit: cover;
     cursor: pointer;
 }
+
+.link {
+    font-weight: bold;
+}

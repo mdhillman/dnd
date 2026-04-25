@@ -37,7 +37,7 @@ export const InfoTable: FC<InfoTableProps> = ({ images, captions, keys, values }
         <div className={styles.wrapper}>
             <div className={styles.tableWidget}>
 
-                <img src={`/images/${images[imageIndex]}`} />
+                <img src={`/dnd/images/${images[imageIndex]}`} />
                 <div className={styles.tableCarousel}>
                     <Icon onClick={() => changeImage(-1)}>{showPrevArrow ? 'arrow_left' : ''}</Icon>
                     <p>{captions[imageIndex]}</p>
