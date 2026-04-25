@@ -126,8 +126,8 @@ const container = document.querySelector("#root");
 if (container != null) {
     const root = ReactDOM.createRoot(container);
     root.render(
-        <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
+        <HashRouter>
             <SiteWrapper />
-        </BrowserRouter>
+        </HashRouter>
     );
 }
