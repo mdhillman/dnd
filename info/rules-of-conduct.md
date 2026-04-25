@@ -33,7 +33,6 @@ If you find any exotic races from any of the expansions online (such as those in
   * Goliath*
   * Halfling
   * Human
-  * Lizardfolk
   * Orc (inc Half-Orc)
   * Tiefling*
 
@@ -63,8 +62,6 @@ These aren't quite specific enough to list as House Rules, but I'm going to list
 To make things a little spicer, I've decided to tweak a couple of the established rules and add a few more home-brew ones. Whilst I'll likely explain these as situations demand in the campaign, I wanted to list them here for prosperity; for ease of reference, I've given them all snazzy names as well.
 
 `Hold your horses:` Rolling a natural 20 during an Initiative check lets you pick your position in the running order after hearing the other party member's order.
-
-`Divine retribution:` The DM reserves the right to roll a Divine retribution roll upon the aggregious breaking of any house rules or agreed-upon play styles. If triggered, the DM will roll a D100 and select a wild-magic condition to inflict upon the rule breaker.
 
 `Kip up:` Rolling a natural 20 on a death saving throw instantly revives the player with 1 HP.
 
