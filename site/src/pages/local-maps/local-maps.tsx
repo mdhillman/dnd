@@ -22,7 +22,7 @@ export const LocalMapsPage = () => {
             </Tooltip>
 
             <div className={styles.content}>
-                <h1>Local maps 01</h1>
+                <h1>Local maps</h1>
                 <p>In a world where borders are frequently rewritten by bureaucratic decree and the very 
                     landscape can be altered by the shifting tides of Realmatic Flux, a reliable map is more 
                     than a tool - it is a lifeline. This repository serves as the definitive collection of the 

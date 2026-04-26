@@ -35,9 +35,17 @@
     cursor: pointer;
 }
 
-@media all and (max-height: 850px) {
+@media all and (max-height: 1200px) {
     .headerImage {
         height: 10rem;
+    }
+
+    .container {
+        padding: var(--spacingL);
+    }
+
+    .content {
+        padding: 0 var(--spacingXL);
     }
 }
 

@@ -12,6 +12,8 @@
     
     overflow-y: auto;
     scrollbar-gutter: stable;
+
+    z-index: 999;
 }
 
 .linkItem {
@@ -64,4 +66,15 @@
 .linkCollapser {
     margin-left: auto;
     z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        bottom: 0;
+        width: calc(100% - var(--spacingL) - var(--spacingL));
+    }
+
 }

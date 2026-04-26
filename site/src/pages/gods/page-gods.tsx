@@ -6,6 +6,7 @@ import ChromaGrid, {
     ChromaItem,
 } from "../../components/chroma-grid/chroma-grid";
 import { KEY_THE_NINTH } from "../../data/keys";
+import { useWindowDimensions } from "../../hooks";
 
 const defaultTiles: ChromaItem[] = [
     {
@@ -75,6 +76,8 @@ const defaultTiles: ChromaItem[] = [
 ];
 
 const GodsPage: FC = () => {
+    const {height, width } = useWindowDimensions();
+
     //const cookies = useContext(CookieContext).sort();
     //const showNinth = cookies.includes(KEY_THE_NINTH);
     const headerImage = "/dnd/images/gods.png";
@@ -135,8 +138,8 @@ const GodsPage: FC = () => {
                 <div className={styles.chroma}>
                     <ChromaGrid
                         items={godTiles}
-                        columns={4}
-                        rows={2}
+                        columns={width < 1200 ? 1 : 4}
+                        rows={width < 1200 ? 8 : 2}
                         radius={150}
                     />
                 </div>

@@ -53,6 +53,10 @@ body,
     height: 100%;
 }
 
+p {
+    font-size:1rem;
+}
+
 a {
     color: var(--highlight02);
 }
@@ -96,4 +100,24 @@ body {
     margin: var(--spacingXXL);
     font-style: italic;
     border-radius: 8px;
+}
+
+
+@media all and (max-width: 1200px) {
+    p {
+        font-size: 0.75rem;
+    }
+
+    ul {
+        font-size: 0.75rem;
+        padding-left: 2rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3, h4, h5 {
+        font-size: 1rem;
+     }
 }

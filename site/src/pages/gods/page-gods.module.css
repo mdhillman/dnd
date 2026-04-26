@@ -39,8 +39,12 @@
     margin: var(--spacingXXL) 0;
 }
 
-@media all and (max-height: 850px) {
+@media all and (max-height: 1200px) {
     .headerImage {
-        height: 10rem;
+        height: 7.5rem;
+    }
+
+    .container {
+        padding: var(--spacingL);
     }
 }

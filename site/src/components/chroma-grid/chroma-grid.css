@@ -17,11 +17,16 @@
     --r: 220px;
 }
 
-@media (max-width: 1124px) {
+@media all and (max-height: 1200px) {
     .chroma-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
         gap: 0.5rem;
         padding: 0.5rem;
+        justify-content: end;
+    }
+
+    .chroma-card {
+        width: 15rem;
     }
 }
 

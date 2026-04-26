@@ -1,10 +1,12 @@
-import { FC, ReactNode, useState } from "react";
+import { FC, ReactNode, useEffect, useState } from "react";
 import SidePanel from "../side-panel/side-panel";
 import { MAIN_LINKS } from "../../data/links";
 import { CodeModal } from "../code-modal/code-modal";
 import { NavigationBar } from "../nav-bar/nav-bar";
 
 import styles from "./wrap-with-navigation.module.css";
+import { useWindowDimensions } from "../../hooks";
+import { useLocation } from "react-router-dom";
 
 interface WrapWithNavigationProps {
     children?: ReactNode;
@@ -14,9 +16,17 @@ interface WrapWithNavigationProps {
  * Use to wrap content across the site with standard navigation tools.
  */
 const WrapWithNavigation: FC<WrapWithNavigationProps> = ({ children }) => {
-    const [modalOpen, setModalOpen] = useState<boolean>(false);
-    const [menuOpen, setMenuOpen] = useState<boolean>(true);
 
+    const { height, width } = useWindowDimensions();
+    const location = useLocation();
+
+    const [modalOpen, setModalOpen] = useState<boolean>(false);
+    const [menuOpen, setMenuOpen] = useState<boolean>(width > 1200);
+
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [location]);
+    
     const toggleMenu = () => {
         setMenuOpen(prev => !prev);
     }
