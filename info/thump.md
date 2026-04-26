@@ -3,7 +3,7 @@ title: 'Organisations'
 header: 'thump.jpg'
 table: {
     images: ['thump01.jpg', 'thump02.jpg', 'thump03.jpg'],
-    captions: ['A typical T.H.U.M.P member', 'A successful arrest','Signing autographs for fans', 'Current chief Lord Thaddeus T Thorne'],
+    captions: ['A typical T.H.U.M.P member', 'A successful arrest', 'Current chief Lord Thaddeus T Thorne'],
     keys: ['Aliases', 'Composition', 'Effectiveness', 'Chief'],
     values: ['The Heavies@The Door Knockers@Oh Gods No, Not Them', 'Mostly Trolls, Constructs, Dwarves, and Humans', 'High effective at catching rogue spellcasters.@Terrible at minimising collateral damage.', 'Lord Thaddeus T Thorne'],
 }
