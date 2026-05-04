@@ -82,7 +82,7 @@ td:last-child {
     
 }
 
-@media all and (max-height: 1200px) {
+@media all and (max-width: 1200px) {
     .wrapper {
         padding: 1rem 0;
         width: 100%;

@@ -61,10 +61,17 @@ export const LocalMapsPage = () => {
                     Guild if the town is large enough for one) within the desired location.
                 </p>
 
-                 <strong><a href="#">Revelstone</a>: </strong><br/>
+                <strong><a href="#">Revelstone</a>: </strong><br/>
                 <span>
                     This city map is available for purchase at the Cartographer's Guild 
                     within the Halls of Consensus in Revelstone.</span>
+                <br/><br/>
+
+                <Link className={styles.link} to="/appleby-map">Appleby</Link>:<br/>
+                <span>
+                    This small cider producing town has no branch of the cartographer's guild, but did recently find a old map
+                    within the town's archives.</span>
+                <br/><br/>
             </div>
         </div>
     );

@@ -82,6 +82,14 @@ const SiteWrapper: FC = () => {
                         }
                     />
                     <Route
+                        path="/appleby-map"
+                        element={
+                            <WrapWithNavigation>
+                                <InteractiveMap mainMapUrl="/dnd/images/appleby-map.svg" />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
                         path="/local-maps"
                         element={
                             <WrapWithNavigation>

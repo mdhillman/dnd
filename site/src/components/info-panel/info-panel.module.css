@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-@media all and (max-height: 1200px) {
+@media all and (max-width: 1200px) {
     .headerImage {
         height: 10rem;
     }

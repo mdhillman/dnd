@@ -24,7 +24,7 @@ const WrapWithNavigation: FC<WrapWithNavigationProps> = ({ children }) => {
     const [menuOpen, setMenuOpen] = useState<boolean>(width > 1200);
 
     useEffect(() => {
-        setMenuOpen(false);
+        setMenuOpen(width > 1200);
     }, [location]);
     
     const toggleMenu = () => {
