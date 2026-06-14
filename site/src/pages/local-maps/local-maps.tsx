@@ -61,10 +61,9 @@ export const LocalMapsPage = () => {
                     Guild if the town is large enough for one) within the desired location.
                 </p>
 
-                <strong><a href="#">Revelstone</a>: </strong><br/>
+                <Link className={styles.link} to="/revelstone-map">Revelstone</Link>:<br/>
                 <span>
-                    This city map is available for purchase at the Cartographer's Guild 
-                    within the Halls of Consensus in Revelstone.</span>
+                    Revelstone, frequently referred to as The City of Gears and Glimmer, is a sovereign city-state and the administrative heart of the civilized world. Serving as the joint-seat of government for the allied nations, it acts as the de-facto capital of the Kindred Concord.</span>
                 <br/><br/>
 
                 <Link className={styles.link} to="/appleby-map">Appleby</Link>:<br/>

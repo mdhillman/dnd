@@ -97,3 +97,7 @@ The city is a magnet for celebrities, including:
 * Master Artificer Bram: A man who famously replaced his own left arm with a steam-powered clock, claiming he "never liked the original's lack of built-in timing."
 * Madame Valois: The most sought-after dressmaker in the Concord, rumored to weave "Anti-Memetic" thread into her garments so that her clients can attend scandals without being remembered by the witnesses.
 * "Steam-Whistle" Sally: A legendary rail-pilot and engineer who famously drove a prototype locomotive through a Realmatic Flux storm to deliver medicine to a quarantined village in Doriath.
+
+## Local map
+
+To see a recent map of Revelstone from the Kindren Concord's own Cartographer's Guild, click the link [here](/revelstone-map).

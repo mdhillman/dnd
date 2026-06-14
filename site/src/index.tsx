@@ -90,6 +90,14 @@ const SiteWrapper: FC = () => {
                         }
                     />
                     <Route
+                        path="/revelstone-map"
+                        element={
+                            <WrapWithNavigation>
+                                <InteractiveMap mainMapUrl="/dnd/images/revelstone-map.svg" />
+                            </WrapWithNavigation>
+                        }
+                    />
+                    <Route
                         path="/local-maps"
                         element={
                             <WrapWithNavigation>
